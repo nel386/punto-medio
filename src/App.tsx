@@ -70,6 +70,10 @@ function displayScale(session: GameSession | null): Scale | null {
 // de la fan y centro del hub. Las piezas giran; este punto nunca se traslada.
 const WHEEL_PIVOT_Y = 0.505;
 const WHEEL_ANIMATION_MS = 1200;
+// La aguja ocupa todo el arco útil de la tapa: los extremos quedan 5° más
+// inclinados y siguen siendo simétricos alrededor del pivote fijo.
+const NEEDLE_MAX_ANGLE = 72.5;
+const NEEDLE_DEGREES_PER_POINT = NEEDLE_MAX_ANGLE / 50;
 
 const WHEEL_LAYER_KEYS = ["gear", "background", "target", "screen", "shell", "opener", "needle"] as const;
 type WheelLayerKey = (typeof WHEEL_LAYER_KEYS)[number];
@@ -160,14 +164,14 @@ function positionFromPointer(event: { clientX: number; clientY: number }, elemen
   const pivotX = bounds.left + bounds.width / 2;
   const pivotY = bounds.top + bounds.height * WHEEL_PIVOT_Y;
   const angle = Math.atan2(event.clientX - pivotX, pivotY - event.clientY) * (180 / Math.PI);
-  const clampedAngle = Math.max(-67.5, Math.min(67.5, angle));
-  return Math.round(Math.max(0, Math.min(100, 50 + clampedAngle / 1.35)));
+  const clampedAngle = Math.max(-NEEDLE_MAX_ANGLE, Math.min(NEEDLE_MAX_ANGLE, angle));
+  return Math.round(Math.max(0, Math.min(100, 50 + clampedAngle / NEEDLE_DEGREES_PER_POINT)));
 }
 
 function ScoreWheel({ target, gearRotation = 0, needle, showTarget, isOpening, isClosing, shuffleInteractive = false, showOpener = false, interactive = false, calibration = DEFAULT_WHEEL_CALIBRATION, animationCalibration, calibrationMode = false, selectedCalibrationLayer, onNeedleChange, onTargetRotate, onCalibrationMove, onCalibrationScale }: { target: number; gearRotation?: number; needle?: number | null; showTarget: boolean; isOpening: boolean; isClosing: boolean; shuffleInteractive?: boolean; showOpener?: boolean; interactive?: boolean; calibration?: WheelCalibration; animationCalibration?: WheelCalibration; calibrationMode?: boolean; selectedCalibrationLayer?: WheelLayerKey; onNeedleChange?: (value: number) => void; onTargetRotate?: (delta: number) => void; onCalibrationMove?: (x: number, y: number) => void; onCalibrationScale?: (delta: number) => void }) {
-  const targetAngle = (target - 50) * 1.35;
+  const targetAngle = (target - 50) * NEEDLE_DEGREES_PER_POINT;
   const needleValue = needle ?? 50;
-  const needleAngle = (needleValue - 50) * 1.35;
+  const needleAngle = (needleValue - 50) * NEEDLE_DEGREES_PER_POINT;
   const showNeedle = needle !== null && needle !== undefined;
   const targetDrag = useRef<{ pointerId: number; lastAngle: number } | null>(null);
   const calibrationDrag = useRef<{ pointerId: number; x: number; y: number } | null>(null);
@@ -219,7 +223,7 @@ function ScoreWheel({ target, gearRotation = 0, needle, showTarget, isOpening, i
       if (delta < -180) delta += 360;
       targetDrag.current.lastAngle = metrics.angle;
       if (Math.abs(delta) < 0.08) return;
-      onTargetRotate(delta / 1.35);
+      onTargetRotate(delta / NEEDLE_DEGREES_PER_POINT);
       gearTickAccumulator.current += delta;
       if (Math.abs(gearTickAccumulator.current) >= 5.5) {
         playPlasticGearTick(gearTickAccumulator.current);
@@ -666,7 +670,7 @@ export default function App() {
 
   function rotateHiddenTarget(delta: number) {
     if (hasSeenTarget) return;
-    setGearRotation((current) => current + delta * 1.35);
+    setGearRotation((current) => current + delta * NEEDLE_DEGREES_PER_POINT);
     setSession((current) => current ? { ...current, targetPosition: Math.max(6, Math.min(94, (current.targetPosition ?? 50) + delta)) } : current);
   }
 

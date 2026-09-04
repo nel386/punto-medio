@@ -87,7 +87,7 @@
 - La tapa menta pasa a ser una pieza independiente que gira 180 grados sobre `50% 50.5%`; el rail y la carcasa inferior permanecen fijos y la aguja queda siempre en la capa superior.
 - Los dientes y la fan forman un mismo rotor de target. Comparten contenedor, eje, ángulo y asentamiento; los dientes dejan de ser una corona inmóvil decorativa.
 - La nueva foto aportada por el propietario sustituye la proporción previa de la fan como referencia directa. Se conserva el orden 2–3–4–3–2 y se adopta una geometría estrecha y compacta, con punta inferior común y números contenidos cerca del arco superior.
-- El recorrido del target y la aguja se comprime coherentemente a `±67.5°` para mantener los cinco sectores legibles dentro del hueco incluso cerca de los extremos; la conversión del puntero usa la misma escala.
+- El recorrido del target y la aguja se extiende simétricamente a `±72.5°` para que 0 y 100 queden cinco grados más inclinados y a ras de la tapa celeste; la conversión del puntero usa la misma escala.
 - La validación final exige nueve capturas de evidencia, carga limpia sin errores/avisos, build, 8 tests y comprobación real a 390 px sin overflow horizontal. Esos controles quedan registrados en `design-qa.md`.
 - La referencia definitiva de la fan recibida en `d4a7282f-4097-4309-a513-ba9286bcec2d/1-Photo-1.jpg` tiene el mismo SHA-256 que la imagen usada para calibrar la primera revisión.
 
