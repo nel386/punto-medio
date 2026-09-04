@@ -1,0 +1,16 @@
+{
+  "categoryId": "television-cine",
+  "categoryName": "Televisión y cine",
+  "scales": [
+    { "id": "television-cine-01", "leftLabel": "Película para ver en familia", "rightLabel": "Película que todos recuerdan al día siguiente", "tone": "familiar", "enabled": true },
+    { "id": "television-cine-02", "leftLabel": "Serie de un episodio", "rightLabel": "Serie de la que ves media temporada", "tone": "familiar", "enabled": true },
+    { "id": "television-cine-03", "leftLabel": "Actor que reconoces", "rightLabel": "Actor que sostiene toda la película", "tone": "familiar", "enabled": true },
+    { "id": "television-cine-04", "leftLabel": "Película que ves por pasar el rato", "rightLabel": "Película que recomiendas esa misma noche", "tone": "amigos", "enabled": true },
+    { "id": "television-cine-05", "leftLabel": "Final que te parece correcto", "rightLabel": "Final que obliga a discutirlo", "tone": "amigos", "enabled": true },
+    { "id": "television-cine-06", "leftLabel": "Reality que ves por accidente", "rightLabel": "Reality del que te sabes todos los nombres", "tone": "amigos", "enabled": true },
+    { "id": "television-cine-07", "leftLabel": "Personaje que cae bien", "rightLabel": "Personaje que se queda con la serie", "tone": "amigos", "enabled": true },
+    { "id": "television-cine-08", "leftLabel": "Película que ves con palomitas", "rightLabel": "Película que te deja mirando los créditos", "tone": "adulto", "enabled": true },
+    { "id": "television-cine-09", "leftLabel": "Serie que puedes ver mientras haces otra cosa", "rightLabel": "Serie que exige el móvil lejos", "tone": "adulto", "enabled": true },
+    { "id": "television-cine-10", "leftLabel": "Película por la que pagarías una entrada", "rightLabel": "Película por la que esperarías hasta el estreno", "tone": "adulto", "enabled": true }
+  ]
+}

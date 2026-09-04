@@ -1,0 +1,16 @@
+{
+  "categoryId": "relaciones",
+  "categoryName": "Relaciones",
+  "scales": [
+    { "id": "relaciones-01", "leftLabel": "Cita que pasa rápido", "rightLabel": "Cita que te hace perder el último tren", "tone": "familiar", "enabled": true },
+    { "id": "relaciones-02", "leftLabel": "Mensaje que invita a hablar", "rightLabel": "Mensaje que te hace revisar toda la conversación", "tone": "familiar", "enabled": true },
+    { "id": "relaciones-03", "leftLabel": "Primera impresión que se olvida", "rightLabel": "Primera impresión que marca la relación", "tone": "familiar", "enabled": true },
+    { "id": "relaciones-04", "leftLabel": "Persona con la que te ríes", "rightLabel": "Persona con la que te metes en líos", "tone": "amigos", "enabled": true },
+    { "id": "relaciones-05", "leftLabel": "Plan romántico que sale bien", "rightLabel": "Plan romántico que se convierte en anécdota", "tone": "amigos", "enabled": true },
+    { "id": "relaciones-06", "leftLabel": "Señal de alarma que puedes debatir", "rightLabel": "Señal de alarma que te hace salir por la puerta", "tone": "amigos", "enabled": true },
+    { "id": "relaciones-07", "leftLabel": "Ex que recuerdas con cariño", "rightLabel": "Ex que convierte una boda en una misión", "tone": "amigos", "enabled": true },
+    { "id": "relaciones-08", "leftLabel": "Cita que repetirías", "rightLabel": "Cita que contarías en el grupo", "tone": "adulto", "enabled": true },
+    { "id": "relaciones-09", "leftLabel": "Relación que deja espacio", "rightLabel": "Relación que ocupa hasta tus domingos", "tone": "adulto", "enabled": true },
+    { "id": "relaciones-10", "leftLabel": "Detalle que suma puntos", "rightLabel": "Detalle que te hace cambiar de planes", "tone": "adulto", "enabled": true }
+  ]
+}

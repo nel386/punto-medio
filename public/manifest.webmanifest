@@ -1,0 +1,18 @@
+{
+  "name": "Punto Medio",
+  "short_name": "Punto Medio",
+  "description": "Un juego social de pistas, debates y escalas.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#101827",
+  "theme_color": "#101827",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

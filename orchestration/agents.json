@@ -1,0 +1,20 @@
+{
+  "orchestrator": {
+    "name": "lead-orchestrator",
+    "owns": ["orchestration/**"],
+    "responsibility": "Descomponer tareas, coordinar dependencias, consolidar hitos y pedir revisión humana en decisiones grandes."
+  },
+  "agents": [
+    {"id":"product","owns":["docs/product.md"],"dependsOn":[],"deliverable":"Product brief y criterios de éxito"},
+    {"id":"game-design","owns":["docs/game-design.md"],"dependsOn":["product"],"deliverable":"Reglas, puntuación y modos"},
+    {"id":"ux","owns":["docs/ux.md"],"dependsOn":["product","game-design"],"deliverable":"Flujo de pantallas y accesibilidad"},
+    {"id":"content-01","owns":["content/categories/vida-cotidiana.json","content/categories/trabajo-estudios.json","content/categories/relaciones.json","content/categories/comida-bebida.json","content/categories/ocio.json"],"dependsOn":["product"],"deliverable":"75 escalas"},
+    {"id":"content-02","owns":["content/categories/viajes.json","content/categories/tecnologia.json","content/categories/deporte.json","content/categories/cultura.json","content/categories/television-cine.json"],"dependsOn":["product"],"deliverable":"75 escalas"},
+    {"id":"content-03","owns":["content/categories/personalidad.json","content/categories/amistad.json","content/categories/nostalgia.json","content/categories/dinero-status.json","content/categories/casa.json"],"dependsOn":["product"],"deliverable":"75 escalas"},
+    {"id":"content-04","owns":["content/categories/absurdo.json","content/categories/riesgo-aventura.json","content/categories/etica.json","content/categories/fiesta.json","content/categories/futuro.json"],"dependsOn":["product"],"deliverable":"75 escalas"},
+    {"id":"content-review","owns":["docs/content-review.md"],"dependsOn":["content-01","content-02","content-03","content-04"],"deliverable":"Informe de calidad y conteos"},
+    {"id":"engineering","owns":["package.json","index.html","vite.config.ts","tsconfig.json","public/**","src/**","capacitor.config.ts"],"dependsOn":["game-design","ux","content-review"],"deliverable":"Núcleo web y shell Android"},
+    {"id":"monetization","owns":["docs/monetization.md","src/platform/ads.ts"],"dependsOn":["engineering"],"deliverable":"Adaptador de anuncios y reglas de pausas"},
+    {"id":"qa","owns":["docs/qa-report.md","tests/**"],"dependsOn":["engineering","monetization"],"deliverable":"Pruebas, revisión de contenido y release checklist"}
+  ]
+}

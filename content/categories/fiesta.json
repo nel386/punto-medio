@@ -1,0 +1,16 @@
+{
+  "categoryId": "fiesta",
+  "categoryName": "Fiesta",
+  "scales": [
+    { "id": "fiesta-01", "leftLabel": "Quedada que termina después de cenar", "rightLabel": "Noche que empieza cuando cierran las cenas", "tone": "familiar", "enabled": true },
+    { "id": "fiesta-02", "leftLabel": "Copa que te tomas despacio", "rightLabel": "Copa que inaugura una segunda ronda", "tone": "familiar", "enabled": true },
+    { "id": "fiesta-03", "leftLabel": "Hora sensata para volver", "rightLabel": "Hora a la que ya está amaneciendo", "tone": "familiar", "enabled": true },
+    { "id": "fiesta-04", "leftLabel": "Fiesta para hablar con todo el mundo", "rightLabel": "Fiesta en la que acabas con un grupo nuevo", "tone": "amigos", "enabled": true },
+    { "id": "fiesta-05", "leftLabel": "Plan que se tuerce pero mejora", "rightLabel": "Plan que ya nace torcido", "tone": "amigos", "enabled": true },
+    { "id": "fiesta-06", "leftLabel": "Mensaje de una y nos vamos", "rightLabel": "Mensaje que abre la segunda ronda", "tone": "amigos", "enabled": true },
+    { "id": "fiesta-07", "leftLabel": "Foto de fiesta que se puede enseñar", "rightLabel": "Foto de fiesta que necesita contexto", "tone": "amigos", "enabled": true },
+    { "id": "fiesta-08", "leftLabel": "Hora razonable para volver de fiesta", "rightLabel": "Hora que exige desayunar antes de dormir", "tone": "adulto", "enabled": true },
+    { "id": "fiesta-09", "leftLabel": "Resaca que arregla un café", "rightLabel": "Resaca que cancela el domingo", "tone": "adulto", "enabled": true },
+    { "id": "fiesta-10", "leftLabel": "Excusa para salir un rato", "rightLabel": "Noche por la que cambias tus planes de mañana", "tone": "adulto", "enabled": true }
+  ]
+}

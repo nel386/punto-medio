@@ -1,0 +1,16 @@
+{
+  "categoryId": "viajes",
+  "categoryName": "Viajes",
+  "scales": [
+    { "id": "viajes-01", "leftLabel": "Excursión que haces en una mañana", "rightLabel": "Excursión que te ocupa el día entero", "tone": "familiar", "enabled": true },
+    { "id": "viajes-02", "leftLabel": "Pueblo al que paras de camino", "rightLabel": "Pueblo al que desvías la ruta", "tone": "familiar", "enabled": true },
+    { "id": "viajes-03", "leftLabel": "Playa para darse un baño", "rightLabel": "Playa por la que eliges destino", "tone": "familiar", "enabled": true },
+    { "id": "viajes-04", "leftLabel": "Viaje que se organiza en un chat", "rightLabel": "Viaje que necesita una hoja de cálculo", "tone": "amigos", "enabled": true },
+    { "id": "viajes-05", "leftLabel": "Hotel correcto para dormir", "rightLabel": "Hotel que se convierte en parte del viaje", "tone": "amigos", "enabled": true },
+    { "id": "viajes-06", "leftLabel": "Ciudad que visitas una vez", "rightLabel": "Ciudad que ya sientes un poco tuya", "tone": "amigos", "enabled": true },
+    { "id": "viajes-07", "leftLabel": "Plan de vacaciones que sale improvisado", "rightLabel": "Plan de vacaciones que se reserva con meses", "tone": "amigos", "enabled": true },
+    { "id": "viajes-08", "leftLabel": "Escapada que cabe en un puente", "rightLabel": "Escapada que te obliga a mirar el cambio de divisa", "tone": "adulto", "enabled": true },
+    { "id": "viajes-09", "leftLabel": "Viaje que haces con equipaje de mano", "rightLabel": "Viaje que necesita facturar y negociar", "tone": "adulto", "enabled": true },
+    { "id": "viajes-10", "leftLabel": "Destino al que irías con cualquiera", "rightLabel": "Destino por el que eliges compañía", "tone": "adulto", "enabled": true }
+  ]
+}

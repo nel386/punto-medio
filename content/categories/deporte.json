@@ -1,0 +1,16 @@
+{
+  "categoryId": "deporte",
+  "categoryName": "Deporte",
+  "scales": [
+    { "id": "deporte-01", "leftLabel": "Partido que se ve de fondo", "rightLabel": "Partido que hace callar el salón", "tone": "familiar", "enabled": true },
+    { "id": "deporte-02", "leftLabel": "Paseo en bici para despejarse", "rightLabel": "Ruta en bici que merece una medalla", "tone": "familiar", "enabled": true },
+    { "id": "deporte-03", "leftLabel": "Jugador que cumple", "rightLabel": "Jugador que cambia la historia del club", "tone": "familiar", "enabled": true },
+    { "id": "deporte-04", "leftLabel": "Fichaje que ilusiona en verano", "rightLabel": "Fichaje que pone al rival a temblar", "tone": "amigos", "enabled": true },
+    { "id": "deporte-05", "leftLabel": "Gol que te levanta del sofá", "rightLabel": "Gol que se cuenta diez años después", "tone": "amigos", "enabled": true },
+    { "id": "deporte-06", "leftLabel": "Derbi que se comenta el lunes", "rightLabel": "Derbi que divide la mesa", "tone": "amigos", "enabled": true },
+    { "id": "deporte-07", "leftLabel": "Carrera futbolística que se apaga pronto", "rightLabel": "Carrera futbolística legendaria", "tone": "amigos", "enabled": true },
+    { "id": "deporte-08", "leftLabel": "Contrato que te da tranquilidad", "rightLabel": "Contrato que te cambia la vida", "tone": "adulto", "enabled": true },
+    { "id": "deporte-09", "leftLabel": "Lesión que te hace parar", "rightLabel": "Lesión que redefine tu carrera", "tone": "adulto", "enabled": true },
+    { "id": "deporte-10", "leftLabel": "Partido por el que pagarías una entrada", "rightLabel": "Partido por el que cruzarías Europa", "tone": "adulto", "enabled": true }
+  ]
+}

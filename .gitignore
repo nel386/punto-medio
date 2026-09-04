@@ -1,0 +1,17 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.codex-remote-attachments/
+.env
+.env.*
+!.env.example
+*.log
+*.local
+qa-*.png
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/
+android/.idea/
+android/local.properties

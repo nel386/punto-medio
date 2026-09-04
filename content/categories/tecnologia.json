@@ -1,0 +1,16 @@
+{
+  "categoryId": "tecnologia",
+  "categoryName": "Tecnología",
+  "scales": [
+    { "id": "tecnologia-01", "leftLabel": "Móvil que solo usas para llamar", "rightLabel": "Móvil que lleva tu vida entera", "tone": "familiar", "enabled": true },
+    { "id": "tecnologia-02", "leftLabel": "App que abres una vez al mes", "rightLabel": "App que miras antes de levantarte", "tone": "familiar", "enabled": true },
+    { "id": "tecnologia-03", "leftLabel": "Foto que guardas", "rightLabel": "Foto que conviertes en fondo de pantalla", "tone": "familiar", "enabled": true },
+    { "id": "tecnologia-04", "leftLabel": "Grupo de WhatsApp tranquilo", "rightLabel": "Grupo de WhatsApp que necesita moderador", "tone": "amigos", "enabled": true },
+    { "id": "tecnologia-05", "leftLabel": "Gadget que resuelve un problema", "rightLabel": "Gadget que crea una nueva afición", "tone": "amigos", "enabled": true },
+    { "id": "tecnologia-06", "leftLabel": "Videojuego para echar un rato", "rightLabel": "Videojuego que borra la tarde", "tone": "amigos", "enabled": true },
+    { "id": "tecnologia-07", "leftLabel": "Contraseña fácil de recordar", "rightLabel": "Contraseña que exige un gestor", "tone": "amigos", "enabled": true },
+    { "id": "tecnologia-08", "leftLabel": "Compra tecnológica que te ahorra tiempo", "rightLabel": "Compra tecnológica que te obliga a hacer un curso", "tone": "adulto", "enabled": true },
+    { "id": "tecnologia-09", "leftLabel": "Notificación que puedes ignorar", "rightLabel": "Notificación que cambia el día", "tone": "adulto", "enabled": true },
+    { "id": "tecnologia-10", "leftLabel": "Suscripción que merece la cuota", "rightLabel": "Suscripción que se come el presupuesto", "tone": "adulto", "enabled": true }
+  ]
+}

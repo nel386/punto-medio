@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["categoryId", "categoryName", "scales"],
+  "properties": {
+    "categoryId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "categoryName": { "type": "string", "minLength": 2 },
+    "scales": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "required": ["id", "leftLabel", "rightLabel", "tone", "enabled"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "leftLabel": { "type": "string", "minLength": 2, "maxLength": 80 },
+          "rightLabel": { "type": "string", "minLength": 2, "maxLength": 80 },
+          "tone": { "enum": ["familiar", "amigos", "adulto"] },
+          "enabled": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

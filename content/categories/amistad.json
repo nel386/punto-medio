@@ -1,0 +1,16 @@
+{
+  "categoryId": "amistad",
+  "categoryName": "Amistad",
+  "scales": [
+    { "id": "amistad-01", "leftLabel": "Amigo al que escribes para hacer un plan", "rightLabel": "Amigo que aparece sin que lo llames", "tone": "familiar", "enabled": true },
+    { "id": "amistad-02", "leftLabel": "Plan que sale adelante con un mensaje", "rightLabel": "Plan que necesita un grupo nuevo", "tone": "familiar", "enabled": true },
+    { "id": "amistad-03", "leftLabel": "Persona que te cae bien", "rightLabel": "Persona que acaba en todas tus historias", "tone": "familiar", "enabled": true },
+    { "id": "amistad-04", "leftLabel": "Amigo que llega a la hora", "rightLabel": "Amigo que aparece cuando ya ha pasado todo", "tone": "amigos", "enabled": true },
+    { "id": "amistad-05", "leftLabel": "Secreto que puedes contar", "rightLabel": "Secreto que cambia cómo ves al grupo", "tone": "amigos", "enabled": true },
+    { "id": "amistad-06", "leftLabel": "Broma que funciona una vez", "rightLabel": "Broma que se convierte en tradición", "tone": "amigos", "enabled": true },
+    { "id": "amistad-07", "leftLabel": "Viaje con amigos que sale bien", "rightLabel": "Viaje con amigos que pone a prueba la amistad", "tone": "amigos", "enabled": true },
+    { "id": "amistad-08", "leftLabel": "Invitación que aceptas por compromiso", "rightLabel": "Invitación que te cambia la semana", "tone": "adulto", "enabled": true },
+    { "id": "amistad-09", "leftLabel": "Discusión que se arregla con una caña", "rightLabel": "Discusión que necesita una cumbre", "tone": "adulto", "enabled": true },
+    { "id": "amistad-10", "leftLabel": "Persona a la que contarías una anécdota", "rightLabel": "Persona a la que contarías lo que no cuentas a nadie", "tone": "adulto", "enabled": true }
+  ]
+}
