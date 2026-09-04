@@ -70,6 +70,7 @@ function displayScale(session: GameSession | null): Scale | null {
 // de la fan y centro del hub. Las piezas giran; este punto nunca se traslada.
 const WHEEL_PIVOT_Y = 0.505;
 const WHEEL_ANIMATION_MS = 1200;
+const WHEEL_PARTS_BASE = `${import.meta.env.BASE_URL}assets/wheel/parts/`;
 // La aguja ocupa todo el arco útil de la tapa: los extremos quedan 5° más
 // inclinados y siguen siendo simétricos alrededor del pivote fijo.
 const NEEDLE_MAX_ANGLE = 82.5;
@@ -261,18 +262,18 @@ function ScoreWheel({ target, gearRotation = 0, needle, showTarget, isOpening, i
     <div className={`score-wheel ${showTarget ? "target-open" : "target-closed"} ${isOpening ? "target-opening" : ""} ${isClosing ? "target-closing" : ""} ${shuffleInteractive ? "wheel-shuffle-enabled" : ""} ${interactive ? "wheel-interactive" : ""} ${calibrationMode ? "wheel-calibration-mode" : ""}`} tabIndex={shuffleInteractive ? 0 : undefined} role={shuffleInteractive ? "slider" : undefined} aria-valuemin={shuffleInteractive ? 6 : undefined} aria-valuemax={shuffleInteractive ? 94 : undefined} aria-valuenow={shuffleInteractive ? Math.round(target) : undefined} onKeyDown={handleKeyDown} onWheel={handleCalibrationWheel} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerUp} onPointerCancel={handlePointerUp} aria-label={calibrationMode ? `Ajustando ${selectedCalibrationLayer ? WHEEL_LAYER_LABELS[selectedCalibrationLayer] : "capa"}` : shuffleInteractive ? "Rueda dentada: desliza sobre el borde para colocar la puntuación secreta" : "Ruleta de puntuación: 2, 3, 4, 3 y 2 puntos; más lejos, 1 o 0 puntos"}>
       <div className="wheel-face">
         <div className="wheel-gear-pivot" style={{ "--gear-angle": `${gearRotation}deg`, zIndex: calibration.gear.z } as CSSProperties} aria-hidden="true">
-          <img className={`wheel-gear wheel-calibratable${selectedClass("gear")}`} style={calibratedVisualStyle(calibration, "gear")} src="/assets/wheel/parts/gear-ring.png" alt="" draggable="false" />
+          <img className={`wheel-gear wheel-calibratable${selectedClass("gear")}`} style={calibratedVisualStyle(calibration, "gear")} src={`${WHEEL_PARTS_BASE}gear-ring.png`} alt="" draggable="false" />
         </div>
-        <img className={`wheel-background wheel-calibratable${selectedClass("background")}`} style={{ ...calibratedVisualStyle(calibration, "background"), zIndex: calibration.background.z }} src="/assets/wheel/parts/background-white.png" alt="" aria-hidden="true" draggable="false" />
+        <img className={`wheel-background wheel-calibratable${selectedClass("background")}`} style={{ ...calibratedVisualStyle(calibration, "background"), zIndex: calibration.background.z }} src={`${WHEEL_PARTS_BASE}background-white.png`} alt="" aria-hidden="true" draggable="false" />
         <div className="wheel-target-window" style={{ zIndex: calibration.target.z }} aria-hidden="true">
           <div className="wheel-target-pivot" style={{ "--target-angle": `${targetAngle}deg` } as CSSProperties}>
-            <img className={`wheel-target wheel-calibratable${selectedClass("target")}`} style={calibratedVisualStyle(calibration, "target")} src="/assets/wheel/parts/score-fan.png" alt="" draggable="false" />
+            <img className={`wheel-target wheel-calibratable${selectedClass("target")}`} style={calibratedVisualStyle(calibration, "target")} src={`${WHEEL_PARTS_BASE}score-fan.png`} alt="" draggable="false" />
           </div>
         </div>
-        <div className="wheel-screen-motion" style={{ zIndex: calibration.screen.z }} aria-hidden="true"><img className={`wheel-screen wheel-calibratable${selectedClass("screen")}`} style={motionStyle("screen")} src="/assets/wheel/parts/screen-mint.png" alt="" draggable="false" /></div>
-        <img className={`wheel-shell wheel-calibratable${selectedClass("shell")}`} style={{ ...calibratedVisualStyle(calibration, "shell"), zIndex: calibration.shell.z }} src="/assets/wheel/parts/shell-blue.png" alt="" aria-hidden="true" draggable="false" />
-        {showOpener && <div className="wheel-opener-motion" style={{ zIndex: calibration.opener.z }}><img className={`wheel-opener wheel-calibratable${selectedClass("opener")}`} style={motionStyle("opener")} src="/assets/wheel/parts/opener.png" alt="" aria-hidden="true" draggable="false" /></div>}
-        {showNeedle && <div className="wheel-needle-pivot" style={{ transform: `rotate(${needleAngle}deg)`, zIndex: calibration.needle.z }}><img className={`wheel-needle wheel-calibratable${selectedClass("needle")}`} style={calibratedVisualStyle(calibration, "needle")} src="/assets/wheel/parts/needle.png" alt="" aria-hidden="true" draggable="false" aria-label={`Aguja en ${Math.round(needleValue)}%`} /></div>}
+        <div className="wheel-screen-motion" style={{ zIndex: calibration.screen.z }} aria-hidden="true"><img className={`wheel-screen wheel-calibratable${selectedClass("screen")}`} style={motionStyle("screen")} src={`${WHEEL_PARTS_BASE}screen-mint.png`} alt="" draggable="false" /></div>
+        <img className={`wheel-shell wheel-calibratable${selectedClass("shell")}`} style={{ ...calibratedVisualStyle(calibration, "shell"), zIndex: calibration.shell.z }} src={`${WHEEL_PARTS_BASE}shell-blue.png`} alt="" aria-hidden="true" draggable="false" />
+        {showOpener && <div className="wheel-opener-motion" style={{ zIndex: calibration.opener.z }}><img className={`wheel-opener wheel-calibratable${selectedClass("opener")}`} style={motionStyle("opener")} src={`${WHEEL_PARTS_BASE}opener.png`} alt="" aria-hidden="true" draggable="false" /></div>}
+        {showNeedle && <div className="wheel-needle-pivot" style={{ transform: `rotate(${needleAngle}deg)`, zIndex: calibration.needle.z }}><img className={`wheel-needle wheel-calibratable${selectedClass("needle")}`} style={calibratedVisualStyle(calibration, "needle")} src={`${WHEEL_PARTS_BASE}needle.png`} alt="" aria-hidden="true" draggable="false" aria-label={`Aguja en ${Math.round(needleValue)}%`} /></div>}
       </div>
     </div>
   );
