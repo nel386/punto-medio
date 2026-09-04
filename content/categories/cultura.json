@@ -2,15 +2,15 @@
   "categoryId": "cultura",
   "categoryName": "Cultura",
   "scales": [
-    { "id": "cultura-01", "leftLabel": "Canción que conoce todo el grupo", "rightLabel": "Canción que cambia el ambiente", "tone": "familiar", "enabled": true },
-    { "id": "cultura-02", "leftLabel": "Museo para una visita rápida", "rightLabel": "Museo que te roba la tarde", "tone": "familiar", "enabled": true },
-    { "id": "cultura-03", "leftLabel": "Libro que reconoces de nombre", "rightLabel": "Libro que te cambia una conversación", "tone": "familiar", "enabled": true },
-    { "id": "cultura-04", "leftLabel": "Artista que escuchas de vez en cuando", "rightLabel": "Artista que defiendes aunque nadie pregunte", "tone": "amigos", "enabled": true },
-    { "id": "cultura-05", "leftLabel": "Obra que entiendes al verla", "rightLabel": "Obra que sigues comentando al salir", "tone": "amigos", "enabled": true },
-    { "id": "cultura-06", "leftLabel": "Festival al que vas por el cartel", "rightLabel": "Festival al que vas por la experiencia", "tone": "amigos", "enabled": true },
-    { "id": "cultura-07", "leftLabel": "Personaje histórico que sale en un examen", "rightLabel": "Personaje histórico que parece escrito para una serie", "tone": "amigos", "enabled": true },
-    { "id": "cultura-08", "leftLabel": "Entrada cultural que compras el mismo día", "rightLabel": "Entrada cultural que vigilas hasta que sale", "tone": "adulto", "enabled": true },
-    { "id": "cultura-09", "leftLabel": "Canción que acompaña un viaje", "rightLabel": "Canción que te devuelve a una época", "tone": "adulto", "enabled": true },
-    { "id": "cultura-10", "leftLabel": "Obra que respetas", "rightLabel": "Obra que defenderías en una sobremesa", "tone": "adulto", "enabled": true }
+    { "id": "cultura-01", "leftLabel": "Banda sonora de una tarde de dibujos", "rightLabel": "Himno familiar en boca de todo el pueblo", "tone": "familiar", "enabled": true },
+    { "id": "cultura-02", "leftLabel": "Museo con audioguía y hora de salida", "rightLabel": "El Prado, una sala favorita y cero prisa", "tone": "familiar", "enabled": true },
+    { "id": "cultura-03", "leftLabel": "Libro para el viaje de verano", "rightLabel": "Libro con esquinas dobladas y frases subrayadas", "tone": "familiar", "enabled": true },
+    { "id": "cultura-04", "leftLabel": "Artista de música de fondo", "rightLabel": "Artista capaz de provocar un alegato de diez minutos", "tone": "amigos", "enabled": true },
+    { "id": "cultura-05", "leftLabel": "Película para llenar un silencio", "rightLabel": "Película que divide al grupo en dos WhatsApps", "tone": "amigos", "enabled": true },
+    { "id": "cultura-06", "leftLabel": "Concierto con sitio asignado", "rightLabel": "Festival donde acabas viendo amanecer", "tone": "amigos", "enabled": true },
+    { "id": "cultura-07", "leftLabel": "Personaje que reconoces al instante", "rightLabel": "Personaje que exige contexto, mapa y Wikipedia", "tone": "amigos", "enabled": true },
+    { "id": "cultura-08", "leftLabel": "Entrada comprada en la taquilla", "rightLabel": "Abono que ya protege tus vacaciones", "tone": "adulto", "enabled": true },
+    { "id": "cultura-09", "leftLabel": "Canción para conducir hasta Valencia", "rightLabel": "Canción con billete directo a 2004", "tone": "adulto", "enabled": true },
+    { "id": "cultura-10", "leftLabel": "Exposición vista de principio a fin", "rightLabel": "Exposición con reserva de hotel incluida", "tone": "adulto", "enabled": true }
   ]
 }

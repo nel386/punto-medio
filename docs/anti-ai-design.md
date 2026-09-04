@@ -5,7 +5,7 @@ Fecha: 2026-09-04
 
 ## Evidencia revisada
 
-- Setup en escritorio con la app local, incluyendo la selección de modo, ambiente, packs, las 20 categorías, equipos y rondas.
+- Setup en escritorio con la app local, incluyendo la selección de modo, ambiente, packs, las 12 categorías, equipos y rondas.
 - Setup en viewport estrecho de 390 × 844 px.
 - Flujo auxiliar existente: pantalla secreta y sus controles de revelar/cerrar, además del marcador compacto.
 
@@ -26,12 +26,12 @@ Fecha: 2026-09-04
 - Marfil, tinta/navy, coral y acentos de categoría; sin gradientes, neón, glassmorphism ni blobs decorativos.
 - Jerarquía explícita: cómo jugar → ambiente → categorías → equipos → empezar.
 - Una sola acción primaria visible en la ficha de preparación.
-- Las 20 categorías siguen presentes y no se esconden detrás de un acordeón.
+- Las 12 categorías siguen presentes en tarjetas compactas y no se esconden detrás de un flujo interminable.
 - Los iconos nuevos son semánticos y coherentes; no se añaden emojis para rellenar huecos.
 
 ## Decisiones humanas que siguen abiertas
 
-- La selección inicial de las 20 categorías sigue siendo deliberadamente amplia: es una decisión de producto sobre variedad, no una optimización automática.
+- La selección inicial de 12 categorías prioriza variedad con curación editorial, no cantidad automática.
 - Los nombres de packs y el tono anfitrión se mantienen en español coloquial; conviene validarlos con grupos reales antes de congelar copy.
 - Las ligeras variaciones de esquina en las cartas son una señal material sutil. Si el equipo imprime una caja física, deberían alinearse con su troquel y acabados reales.
 - La ficha móvil permanece fija para proteger el inicio de partida; debe validarse en sesiones con una mano y con teclado virtual abierto.
@@ -40,4 +40,3 @@ Fecha: 2026-09-04
 
 - `src/App.tsx`: iconografía semántica, copy de la ficha, CTA con scroll accesible y estados auxiliares.
 - `src/styles.css`: jerarquía, materialidad, estados táctiles y responsive.
-

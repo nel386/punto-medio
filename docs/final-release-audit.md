@@ -71,7 +71,7 @@ El permiso no bloquea técnicamente, pero para un build local/offline sin provee
 
 ## Verificación de offline y permisos
 
-- Las 20 categorías y 300 escalas están presentes en el bundle local y los tests comprueban IDs, tonos y sincronización del catálogo agregado.
+- Las 12 categorías y 120 escalas están presentes en el bundle local y los tests comprueban IDs, tonos y sincronización del catálogo agregado.
 - El service worker registra, toma control después de recarga y precachea `index.html`, manifest, JS/CSS hashados y assets de la ruleta.
 - El estado de partida y la pista sobreviven a una recarga mediante `localStorage`.
 - Con la red desactivada después de esa precarga, la pantalla de resultado vuelve a renderizarse correctamente.

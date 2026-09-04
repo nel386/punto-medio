@@ -5,7 +5,7 @@
 - Android primero con núcleo web reutilizable.
 - Pass-and-play en un solo móvil.
 - Offline-first; la partida no se bloquea si no hay red.
-- 300 escalas, 20 categorías y tres tonos elegibles.
+- 120 escalas, 12 categorías premium y tres tonos elegibles.
 - Modos clásico, modificadores y escalas personalizadas.
 - Sin cuentas, backend ni panel de administración.
 - Anuncios solo en pausas naturales y mediante un adaptador sustituible.
@@ -41,7 +41,7 @@
 ## 2026-09-01 — Tarjetas y movimiento
 
 - El selector de categorías adopta una galería de tarjetas tipo baraja: cada carta muestra número, color, nombre, escalas disponibles y estado seleccionado.
-- La galería mantiene `Todas`, `Limpiar` y selección individual de las 20 categorías, con scroll interno para no forzar una lista interminable en móvil.
+- La galería mantiene `Todas`, `Limpiar` y selección individual de las 12 categorías, con tarjetas compactas y scroll interno solo cuando sea necesario en móvil.
 - La ruleta añade microanimaciones de apertura, cierre seguro y asentamiento del puntero, respetando `prefers-reduced-motion` y sin modificar la puntuación.
 - Los PNG de abridor y aguja se conservaron como referencias separadas; no se integran directamente porque sus fondos negros no encajan con el layout responsive sin edición adicional.
 

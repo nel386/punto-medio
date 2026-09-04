@@ -6,71 +6,71 @@
       "scales": [
         {
           "id": "deporte-01",
-          "leftLabel": "Partido que se ve de fondo",
-          "rightLabel": "Partido que hace callar el salón",
+          "leftLabel": "Partido de fondo mientras se pela la patata",
+          "rightLabel": "Final con la sobremesa en absoluto silencio",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "deporte-02",
-          "leftLabel": "Paseo en bici para despejarse",
-          "rightLabel": "Ruta en bici que merece una medalla",
+          "leftLabel": "Paseo en bici hasta la plaza",
+          "rightLabel": "Etapa reina del Tour con puerto y avituallamiento",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "deporte-03",
-          "leftLabel": "Jugador que cumple",
-          "rightLabel": "Jugador que cambia la historia del club",
+          "leftLabel": "Partido de pádel con vecinos y pelotas perdidas",
+          "rightLabel": "Triatlón con neopreno, dorsal y transición cronometrada",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "deporte-04",
-          "leftLabel": "Fichaje que ilusiona en verano",
-          "rightLabel": "Fichaje que pone al rival a temblar",
+          "leftLabel": "Fichaje de verano para vender camisetas",
+          "rightLabel": "Galáctico presentado con fuegos artificiales",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "deporte-05",
-          "leftLabel": "Gol que te levanta del sofá",
-          "rightLabel": "Gol que se cuenta diez años después",
+          "leftLabel": "Gol en el descuento y salto del sofá",
+          "rightLabel": "Remontada del 6-1 todavía discutida en el bar",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "deporte-06",
-          "leftLabel": "Derbi que se comenta el lunes",
-          "rightLabel": "Derbi que divide la mesa",
+          "leftLabel": "Derbi con bromas en el grupo",
+          "rightLabel": "Clásico con el móvil en modo avión",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "deporte-07",
-          "leftLabel": "Carrera futbolística que se apaga pronto",
-          "rightLabel": "Carrera futbolística legendaria",
+          "leftLabel": "Pachanga con zapatillas limpias",
+          "rightLabel": "Torneo con dorsal, vestuario y tercer tiempo",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "deporte-08",
-          "leftLabel": "Contrato que te da tranquilidad",
-          "rightLabel": "Contrato que te cambia la vida",
+          "leftLabel": "Carrera popular del barrio",
+          "rightLabel": "Maratón con dorsal conseguido hace meses",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "deporte-09",
-          "leftLabel": "Lesión que te hace parar",
-          "rightLabel": "Lesión que redefine tu carrera",
+          "leftLabel": "Entrenamiento antes de fichar",
+          "rightLabel": "Semana organizada alrededor del entrenamiento",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "deporte-10",
-          "leftLabel": "Partido por el que pagarías una entrada",
-          "rightLabel": "Partido por el que cruzarías Europa",
+          "leftLabel": "Entrada de grada para ver el partido",
+          "rightLabel": "Viaje europeo con hotel reservado para la final",
           "tone": "adulto",
           "enabled": true
         }
@@ -82,71 +82,71 @@
       "scales": [
         {
           "id": "ocio-01",
-          "leftLabel": "Plan de domingo que te despierta",
-          "rightLabel": "Plan de domingo que te devuelve a casa al anochecer",
+          "leftLabel": "Paseo de domingo con vuelta antes de merendar",
+          "rightLabel": "Excursión con bocata, manta y linterna",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "ocio-02",
-          "leftLabel": "Juego de mesa para echar una partida",
-          "rightLabel": "Juego de mesa que saca al competitivo del grupo",
+          "leftLabel": "Partida de mesa sin leer las reglas",
+          "rightLabel": "Catan con el puerto disputado y revancha",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "ocio-03",
-          "leftLabel": "Libro que entretiene un viaje",
-          "rightLabel": "Libro que prestas con miedo a no recuperarlo",
+          "leftLabel": "Libro para el trayecto en tren",
+          "rightLabel": "Saga capaz de hacerte perder la parada",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "ocio-04",
-          "leftLabel": "Concierto al que vas por acompañar",
-          "rightLabel": "Concierto que te deja sin voz",
+          "leftLabel": "Concierto en la plaza del pueblo",
+          "rightLabel": "Festival con pulsera, camping y barro",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "ocio-05",
-          "leftLabel": "Serie para poner de fondo",
-          "rightLabel": "Serie que te roba la hora de dormir",
+          "leftLabel": "Un capítulo de The Office antes de dormir",
+          "rightLabel": "Temporada completa con pizza fría al amanecer",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "ocio-06",
-          "leftLabel": "Afición que pruebas un mes",
-          "rightLabel": "Afición que acaba ocupando un armario",
+          "leftLabel": "Taller de cerámica de una tarde",
+          "rightLabel": "Afición con herramientas ocupando el salón",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "ocio-07",
-          "leftLabel": "Plan que se decide en cinco minutos",
-          "rightLabel": "Plan que el grupo recuerda todo el año",
+          "leftLabel": "Escape room para echar la tarde",
+          "rightLabel": "Escape room con ranking, revancha y grupo de WhatsApp",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "ocio-08",
-          "leftLabel": "Entrada que compras por impulso",
-          "rightLabel": "Entrada que persigues durante meses",
+          "leftLabel": "Cine de barrio con palomitas compartidas",
+          "rightLabel": "Estreno IMAX con viaje a otra ciudad",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "ocio-09",
-          "leftLabel": "Escapada que cabe en un puente",
-          "rightLabel": "Escapada que exige pedir vacaciones",
+          "leftLabel": "Escapada de puente con una mochila",
+          "rightLabel": "Viaje con vacaciones, escalas y seguro",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "ocio-10",
-          "leftLabel": "Hobby para desconectar",
-          "rightLabel": "Hobby que reorganiza tus fines de semana",
+          "leftLabel": "Domingo libre para improvisar",
+          "rightLabel": "Fin de semana bloqueado por entradas y reservas",
           "tone": "adulto",
           "enabled": true
         }
@@ -158,71 +158,71 @@
       "scales": [
         {
           "id": "fiesta-01",
-          "leftLabel": "Quedada que termina después de cenar",
-          "rightLabel": "Noche que empieza cuando cierran las cenas",
+          "leftLabel": "Merienda que termina al recoger la mesa",
+          "rightLabel": "Verbena con churros al amanecer",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "fiesta-02",
-          "leftLabel": "Copa que te tomas despacio",
-          "rightLabel": "Copa que inaugura una segunda ronda",
+          "leftLabel": "Brindis con una copa y conversación",
+          "rightLabel": "Barra libre con DJ y pulsera fluorescente",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "fiesta-03",
-          "leftLabel": "Hora sensata para volver",
-          "rightLabel": "Hora a la que ya está amaneciendo",
+          "leftLabel": "Cumpleaños con tarta y sillas",
+          "rightLabel": "Boda con orquesta, photocall y mesa de chuches",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "fiesta-04",
-          "leftLabel": "Fiesta para hablar con todo el mundo",
-          "rightLabel": "Fiesta en la que acabas con un grupo nuevo",
+          "leftLabel": "Lista de canciones con criterio",
+          "rightLabel": "DJ con una misión y cero derecho a veto",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "fiesta-05",
-          "leftLabel": "Plan que se tuerce pero mejora",
-          "rightLabel": "Plan que ya nace torcido",
+          "leftLabel": "Baile pegado a la pared",
+          "rightLabel": "Coreografía improvisada sobre una silla",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "fiesta-06",
-          "leftLabel": "Mensaje de una y nos vamos",
-          "rightLabel": "Mensaje que abre la segunda ronda",
+          "leftLabel": "Última ronda antes del metro",
+          "rightLabel": "Churros cuando ya están poniendo las calles",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "fiesta-07",
-          "leftLabel": "Foto de fiesta que se puede enseñar",
-          "rightLabel": "Foto de fiesta que necesita contexto",
+          "leftLabel": "Foto de grupo con los ojos abiertos",
+          "rightLabel": "Vídeo que solo se comparte bajo contraseña",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "fiesta-08",
-          "leftLabel": "Hora razonable para volver de fiesta",
-          "rightLabel": "Hora que exige desayunar antes de dormir",
+          "leftLabel": "Brindis de empresa con hora de salida",
+          "rightLabel": "Cena de empresa con karaoke y barra libre",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "fiesta-09",
-          "leftLabel": "Resaca que arregla un café",
-          "rightLabel": "Resaca que cancela el domingo",
+          "leftLabel": "Resaca resuelta con agua y tostada",
+          "rightLabel": "Domingo perdido entre persianas bajadas y Glovo",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "fiesta-10",
-          "leftLabel": "Excusa para salir un rato",
-          "rightLabel": "Noche por la que cambias tus planes de mañana",
+          "leftLabel": "Salir después de cenar sin reserva",
+          "rightLabel": "Entrada, taxi, guardarropa y mesa reservada",
           "tone": "adulto",
           "enabled": true
         }
@@ -234,71 +234,71 @@
       "scales": [
         {
           "id": "comida-bebida-01",
-          "leftLabel": "Desayuno que te pone en marcha",
-          "rightLabel": "Desayuno que justifica madrugar",
+          "leftLabel": "Tostada y café",
+          "rightLabel": "Churros con chocolate",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "comida-bebida-02",
-          "leftLabel": "Tapa para acompañar",
-          "rightLabel": "Tapa que manda pedir otra ronda",
+          "leftLabel": "Aceitunas de cortesía",
+          "rightLabel": "Patatas bravas para toda la mesa",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "comida-bebida-03",
-          "leftLabel": "Pizza de una noche cualquiera",
-          "rightLabel": "Pizza que merece su propio viaje",
+          "leftLabel": "Helado de una bola",
+          "rightLabel": "Helado con toppings, salsa y servilleta de repuesto",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "comida-bebida-04",
-          "leftLabel": "Restaurante al que vas sin reservar",
-          "rightLabel": "Restaurante que reservas con semanas",
+          "leftLabel": "Bocadillo de máquina",
+          "rightLabel": "Bocadillo de calamares en Madrid",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "comida-bebida-05",
-          "leftLabel": "Plato que pruebas por curiosidad",
-          "rightLabel": "Plato que defiendes como patrimonio",
+          "leftLabel": "Pizza para compartir",
+          "rightLabel": "Pizza que no se comparte ni con tu madre",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "comida-bebida-06",
-          "leftLabel": "Café para despejarse",
-          "rightLabel": "Café que convierte la sobremesa en reunión",
+          "leftLabel": "Café de máquina",
+          "rightLabel": "Café de especialidad con nombre de finca",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "comida-bebida-07",
-          "leftLabel": "Bocadillo de gasolinera",
-          "rightLabel": "Bocadillo que salva el viaje",
+          "leftLabel": "Menú del día",
+          "rightLabel": "Menú degustación de siete pases",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "comida-bebida-08",
-          "leftLabel": "Cena que cabe en casa",
-          "rightLabel": "Cena que termina con toda la mesa brindando",
+          "leftLabel": "Vino para cocinar",
+          "rightLabel": "Vino para abrir una conversación pendiente",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "comida-bebida-09",
-          "leftLabel": "Botella para brindar",
-          "rightLabel": "Botella que guardas para una ocasión",
+          "leftLabel": "Cena de picoteo",
+          "rightLabel": "Cena con sobremesa, copa y segunda botella",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "comida-bebida-10",
-          "leftLabel": "Menú que satisface",
-          "rightLabel": "Menú que cambia tu idea de la cocina",
+          "leftLabel": "Cuenta que pagas sin mirar",
+          "rightLabel": "Cuenta dividida en nueve transferencias",
           "tone": "adulto",
           "enabled": true
         }
@@ -310,71 +310,71 @@
       "scales": [
         {
           "id": "viajes-01",
-          "leftLabel": "Excursión que haces en una mañana",
-          "rightLabel": "Excursión que te ocupa el día entero",
+          "leftLabel": "Paseo hasta el mirador",
+          "rightLabel": "Ruta con bocata y vuelta al anochecer",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "viajes-02",
-          "leftLabel": "Pueblo al que paras de camino",
-          "rightLabel": "Pueblo al que desvías la ruta",
+          "leftLabel": "Playa de bandera y chiringuito",
+          "rightLabel": "Cala con escarpines y contraseña",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "viajes-03",
-          "leftLabel": "Playa para darse un baño",
-          "rightLabel": "Playa por la que eliges destino",
+          "leftLabel": "Imán para la nevera",
+          "rightLabel": "Maleta dedicada a los souvenirs",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "viajes-04",
-          "leftLabel": "Viaje que se organiza en un chat",
-          "rightLabel": "Viaje que necesita una hoja de cálculo",
+          "leftLabel": "Escapada organizada en un chat",
+          "rightLabel": "Escapada con itinerario por horas",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "viajes-05",
-          "leftLabel": "Hotel correcto para dormir",
-          "rightLabel": "Hotel que se convierte en parte del viaje",
+          "leftLabel": "Hostal con desayuno",
+          "rightLabel": "Hotel con albornoz y piscina infinita",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "viajes-06",
-          "leftLabel": "Ciudad que visitas una vez",
-          "rightLabel": "Ciudad que ya sientes un poco tuya",
+          "leftLabel": "Foto delante del monumento",
+          "rightLabel": "Álbum que parece una campaña de turismo",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "viajes-07",
-          "leftLabel": "Plan de vacaciones que sale improvisado",
-          "rightLabel": "Plan de vacaciones que se reserva con meses",
+          "leftLabel": "Vuelo con asiento central",
+          "rightLabel": "Ventanilla con upgrade a business",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "viajes-08",
-          "leftLabel": "Escapada que cabe en un puente",
-          "rightLabel": "Escapada que te obliga a mirar el cambio de divisa",
+          "leftLabel": "Viaje de puente",
+          "rightLabel": "Viaje que consume dos semanas de vacaciones",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "viajes-09",
-          "leftLabel": "Viaje que haces con equipaje de mano",
-          "rightLabel": "Viaje que necesita facturar y negociar",
+          "leftLabel": "AVE a Sevilla",
+          "rightLabel": "Vuelo con escala en Doha",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "viajes-10",
-          "leftLabel": "Destino al que irías con cualquiera",
-          "rightLabel": "Destino por el que eliges compañía",
+          "leftLabel": "Escala para estirar las piernas",
+          "rightLabel": "Escala con hotel, visado y reunión",
           "tone": "adulto",
           "enabled": true
         }
@@ -386,71 +386,71 @@
       "scales": [
         {
           "id": "television-cine-01",
-          "leftLabel": "Película para ver en familia",
-          "rightLabel": "Película que todos recuerdan al día siguiente",
+          "leftLabel": "Peli de sobremesa",
+          "rightLabel": "Estreno de Disney con palomitas",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "television-cine-02",
-          "leftLabel": "Serie de un episodio",
-          "rightLabel": "Serie de la que ves media temporada",
+          "leftLabel": "Capítulo de veinte minutos",
+          "rightLabel": "Final de temporada de una hora",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "television-cine-03",
-          "leftLabel": "Actor que reconoces",
-          "rightLabel": "Actor que sostiene toda la película",
+          "leftLabel": "Villano de dibujos",
+          "rightLabel": "Villano que da miedo a los mayores",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "television-cine-04",
-          "leftLabel": "Película que ves por pasar el rato",
-          "rightLabel": "Película que recomiendas esa misma noche",
+          "leftLabel": "Comedia española de domingo",
+          "rightLabel": "Thriller coreano con subtítulos y teorías",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "television-cine-05",
-          "leftLabel": "Final que te parece correcto",
-          "rightLabel": "Final que obliga a discutirlo",
+          "leftLabel": "Serie de un episodio",
+          "rightLabel": "Serie con grupo de WhatsApp",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "television-cine-06",
-          "leftLabel": "Reality que ves por accidente",
-          "rightLabel": "Reality del que te sabes todos los nombres",
+          "leftLabel": "Reality para comentar el lunes",
+          "rightLabel": "Reality que convierte el sofá en un plató",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "television-cine-07",
-          "leftLabel": "Personaje que cae bien",
-          "rightLabel": "Personaje que se queda con la serie",
+          "leftLabel": "Cameo reconocible",
+          "rightLabel": "Universo lleno de easter eggs",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "television-cine-08",
-          "leftLabel": "Película que ves con palomitas",
-          "rightLabel": "Película que te deja mirando los créditos",
+          "leftLabel": "Peli para apagar el cerebro",
+          "rightLabel": "Peli con final explicado en otra pestaña",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "television-cine-09",
-          "leftLabel": "Serie que puedes ver mientras haces otra cosa",
-          "rightLabel": "Serie que exige el móvil lejos",
+          "leftLabel": "Entrada de cine con descuento",
+          "rightLabel": "Sesión IMAX en versión original",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "television-cine-10",
-          "leftLabel": "Película por la que pagarías una entrada",
-          "rightLabel": "Película por la que esperarías hasta el estreno",
+          "leftLabel": "Serie de fondo mientras haces la cena",
+          "rightLabel": "Serie con móvil fuera y libreta",
           "tone": "adulto",
           "enabled": true
         }
@@ -462,71 +462,71 @@
       "scales": [
         {
           "id": "cultura-01",
-          "leftLabel": "Canción que conoce todo el grupo",
-          "rightLabel": "Canción que cambia el ambiente",
+          "leftLabel": "Banda sonora de una tarde de dibujos",
+          "rightLabel": "Himno familiar en boca de todo el pueblo",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "cultura-02",
-          "leftLabel": "Museo para una visita rápida",
-          "rightLabel": "Museo que te roba la tarde",
+          "leftLabel": "Museo con audioguía y hora de salida",
+          "rightLabel": "El Prado, una sala favorita y cero prisa",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "cultura-03",
-          "leftLabel": "Libro que reconoces de nombre",
-          "rightLabel": "Libro que te cambia una conversación",
+          "leftLabel": "Libro para el viaje de verano",
+          "rightLabel": "Libro con esquinas dobladas y frases subrayadas",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "cultura-04",
-          "leftLabel": "Artista que escuchas de vez en cuando",
-          "rightLabel": "Artista que defiendes aunque nadie pregunte",
+          "leftLabel": "Artista de música de fondo",
+          "rightLabel": "Artista capaz de provocar un alegato de diez minutos",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "cultura-05",
-          "leftLabel": "Obra que entiendes al verla",
-          "rightLabel": "Obra que sigues comentando al salir",
+          "leftLabel": "Película para llenar un silencio",
+          "rightLabel": "Película que divide al grupo en dos WhatsApps",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "cultura-06",
-          "leftLabel": "Festival al que vas por el cartel",
-          "rightLabel": "Festival al que vas por la experiencia",
+          "leftLabel": "Concierto con sitio asignado",
+          "rightLabel": "Festival donde acabas viendo amanecer",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "cultura-07",
-          "leftLabel": "Personaje histórico que sale en un examen",
-          "rightLabel": "Personaje histórico que parece escrito para una serie",
+          "leftLabel": "Personaje que reconoces al instante",
+          "rightLabel": "Personaje que exige contexto, mapa y Wikipedia",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "cultura-08",
-          "leftLabel": "Entrada cultural que compras el mismo día",
-          "rightLabel": "Entrada cultural que vigilas hasta que sale",
+          "leftLabel": "Entrada comprada en la taquilla",
+          "rightLabel": "Abono que ya protege tus vacaciones",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "cultura-09",
-          "leftLabel": "Canción que acompaña un viaje",
-          "rightLabel": "Canción que te devuelve a una época",
+          "leftLabel": "Canción para conducir hasta Valencia",
+          "rightLabel": "Canción con billete directo a 2004",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "cultura-10",
-          "leftLabel": "Obra que respetas",
-          "rightLabel": "Obra que defenderías en una sobremesa",
+          "leftLabel": "Exposición vista de principio a fin",
+          "rightLabel": "Exposición con reserva de hotel incluida",
           "tone": "adulto",
           "enabled": true
         }
@@ -538,71 +538,71 @@
       "scales": [
         {
           "id": "amistad-01",
-          "leftLabel": "Amigo al que escribes para hacer un plan",
-          "rightLabel": "Amigo que aparece sin que lo llames",
+          "leftLabel": "Compañero de recreo para una tarde",
+          "rightLabel": "Amigo con sitio en las fotos familiares",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "amistad-02",
-          "leftLabel": "Plan que sale adelante con un mensaje",
-          "rightLabel": "Plan que necesita un grupo nuevo",
+          "leftLabel": "Plan cerrado con un emoji",
+          "rightLabel": "Plan con calendario, Excel y diplomacia",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "amistad-03",
-          "leftLabel": "Persona que te cae bien",
-          "rightLabel": "Persona que acaba en todas tus historias",
+          "leftLabel": "Conversación de ascensor",
+          "rightLabel": "Silencio cómodo de sofá compartido",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "amistad-04",
-          "leftLabel": "Amigo que llega a la hora",
-          "rightLabel": "Amigo que aparece cuando ya ha pasado todo",
+          "leftLabel": "Broma que muere en el chat",
+          "rightLabel": "Broma con nombre propio y aniversario",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "amistad-05",
-          "leftLabel": "Secreto que puedes contar",
-          "rightLabel": "Secreto que cambia cómo ves al grupo",
+          "leftLabel": "Excursión con bocadillo",
+          "rightLabel": "Viaje con reparto de habitaciones",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "amistad-06",
-          "leftLabel": "Broma que funciona una vez",
-          "rightLabel": "Broma que se convierte en tradición",
+          "leftLabel": "Mensaje de «¿tomamos algo?»",
+          "rightLabel": "Mensaje capaz de reunir al grupo en cinco minutos",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "amistad-07",
-          "leftLabel": "Viaje con amigos que sale bien",
-          "rightLabel": "Viaje con amigos que pone a prueba la amistad",
+          "leftLabel": "Amigo con un cargador de repuesto",
+          "rightLabel": "Amigo de la gasolinera a las tres",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "amistad-08",
-          "leftLabel": "Invitación que aceptas por compromiso",
-          "rightLabel": "Invitación que te cambia la semana",
+          "leftLabel": "Invitación para pasar un rato",
+          "rightLabel": "Invitación con media España de por medio",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "amistad-09",
-          "leftLabel": "Discusión que se arregla con una caña",
-          "rightLabel": "Discusión que necesita una cumbre",
+          "leftLabel": "Roce resuelto con una tapa",
+          "rightLabel": "Roce con acta, mediador y café",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "amistad-10",
-          "leftLabel": "Persona a la que contarías una anécdota",
-          "rightLabel": "Persona a la que contarías lo que no cuentas a nadie",
+          "leftLabel": "Contacto para mandar un meme",
+          "rightLabel": "Contacto para llamar sin saludar",
           "tone": "adulto",
           "enabled": true
         }
@@ -614,71 +614,71 @@
       "scales": [
         {
           "id": "relaciones-01",
-          "leftLabel": "Cita que pasa rápido",
-          "rightLabel": "Cita que te hace perder el último tren",
+          "leftLabel": "Primera cita con café y hora de cierre",
+          "rightLabel": "Primera cita con churros de prórroga",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "relaciones-02",
-          "leftLabel": "Mensaje que invita a hablar",
-          "rightLabel": "Mensaje que te hace revisar toda la conversación",
+          "leftLabel": "Mensaje con un pulgar arriba",
+          "rightLabel": "Mensaje con un «tenemos que hablar»",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "relaciones-03",
-          "leftLabel": "Primera impresión que se olvida",
-          "rightLabel": "Primera impresión que marca la relación",
+          "leftLabel": "Pareja para compartir una serie",
+          "rightLabel": "Pareja capaz de cambiar tu algoritmo, tu barrio y tu agenda",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "relaciones-04",
-          "leftLabel": "Persona con la que te ríes",
-          "rightLabel": "Persona con la que te metes en líos",
+          "leftLabel": "Cita con conversación de ascensor",
+          "rightLabel": "Cita con karaoke de madrugada",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "relaciones-05",
-          "leftLabel": "Plan romántico que sale bien",
-          "rightLabel": "Plan romántico que se convierte en anécdota",
+          "leftLabel": "Plan romántico con velas",
+          "rightLabel": "Plan romántico con mapa, bocadillos y último metro",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "relaciones-06",
-          "leftLabel": "Señal de alarma que puedes debatir",
-          "rightLabel": "Señal de alarma que te hace salir por la puerta",
+          "leftLabel": "Red flag en amarillo",
+          "rightLabel": "Red flag tamaño Plaza Mayor",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "relaciones-07",
-          "leftLabel": "Ex que recuerdas con cariño",
-          "rightLabel": "Ex que convierte una boda en una misión",
+          "leftLabel": "Ex con sitio en un saludo",
+          "rightLabel": "Ex con aparición estelar en cada boda y cumpleaños",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "relaciones-08",
-          "leftLabel": "Cita que repetirías",
-          "rightLabel": "Cita que contarías en el grupo",
+          "leftLabel": "Regalo elegido en la cola de caja",
+          "rightLabel": "Regalo con lista de espera y nota de voz",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "relaciones-09",
-          "leftLabel": "Relación que deja espacio",
-          "rightLabel": "Relación que ocupa hasta tus domingos",
+          "leftLabel": "Relación con un cajón propio",
+          "rightLabel": "Relación con cepillo, planta y contraseña del wifi",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "relaciones-10",
-          "leftLabel": "Detalle que suma puntos",
-          "rightLabel": "Detalle que te hace cambiar de planes",
+          "leftLabel": "Discusión por la serie",
+          "rightLabel": "Discusión con mudanzas y suegros en el tercer acto",
           "tone": "adulto",
           "enabled": true
         }
@@ -690,71 +690,71 @@
       "scales": [
         {
           "id": "personalidad-01",
-          "leftLabel": "Persona que habla poco",
-          "rightLabel": "Persona que acaba organizando la mesa",
+          "leftLabel": "En una sobremesa: esperas tu turno",
+          "rightLabel": "En una sobremesa: tienes una anécdota para cada plato",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "personalidad-02",
-          "leftLabel": "Alguien con buen humor",
-          "rightLabel": "Alguien que convierte todo en una historia",
+          "leftLabel": "Cuando se tuerce el plan: improvisas una solución",
+          "rightLabel": "Cuando se tuerce el plan: declaras inaugurado el plan B",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "personalidad-03",
-          "leftLabel": "Persona que improvisa un plan",
-          "rightLabel": "Persona que improvisa hasta la mudanza",
+          "leftLabel": "Para escoger sitio: te vale el de siempre",
+          "rightLabel": "Para escoger sitio: comparas reseñas hasta encontrar el de moda",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "personalidad-04",
-          "leftLabel": "Nivel de cotilleo que compartes",
-          "rightLabel": "Nivel de cotilleo que exige nombres y contexto",
+          "leftLabel": "Cotilleo: traes el titular",
+          "rightLabel": "Cotilleo: traes nombres, fechas y captura",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "personalidad-05",
-          "leftLabel": "Timidez que se pasa con un café",
-          "rightLabel": "Timidez que necesita presentación oficial",
+          "leftLabel": "Broma a tu costa: sonríes y sigues",
+          "rightLabel": "Broma a tu costa: respondes con un especial de Netflix",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "personalidad-06",
-          "leftLabel": "Opinión que mantienes",
-          "rightLabel": "Opinión por la que preparas un alegato",
+          "leftLabel": "Plan de viernes: propones una caña",
+          "rightLabel": "Plan de viernes: produces una noche con horarios y dress code",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "personalidad-07",
-          "leftLabel": "Persona competitiva en un juego",
-          "rightLabel": "Persona que pide revancha antes de terminar",
+          "leftLabel": "Debate en el grupo: dices tu opinión",
+          "rightLabel": "Debate en el grupo: preparas un alegato con réplica",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "personalidad-08",
-          "leftLabel": "Encanto que funciona en una primera cita",
-          "rightLabel": "Encanto que convierte cualquier sala en suya",
+          "leftLabel": "Primera cita: conversación sin silencios raros",
+          "rightLabel": "Primera cita: sales con una historia para contar",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "personalidad-09",
-          "leftLabel": "Manía que hace gracia",
-          "rightLabel": "Manía que reorganiza la convivencia",
+          "leftLabel": "Casa: cada cosa tiene su sitio",
+          "rightLabel": "Casa: hasta los cables tienen sistema de archivo",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "personalidad-10",
-          "leftLabel": "Persona difícil de leer",
-          "rightLabel": "Persona que deja clarísimo lo que piensa",
+          "leftLabel": "Cambio de opinión: te basta un buen dato",
+          "rightLabel": "Cambio de opinión: necesitas una comisión de expertos",
           "tone": "adulto",
           "enabled": true
         }
@@ -766,71 +766,71 @@
       "scales": [
         {
           "id": "tecnologia-01",
-          "leftLabel": "Móvil que solo usas para llamar",
-          "rightLabel": "Móvil que lleva tu vida entera",
+          "leftLabel": "En casa: enchufas y listo",
+          "rightLabel": "En casa: le pides a Alexa que baje la persiana",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "tecnologia-02",
-          "leftLabel": "App que abres una vez al mes",
-          "rightLabel": "App que miras antes de levantarte",
+          "leftLabel": "Fotos del viaje: vuelves con veinte",
+          "rightLabel": "Fotos del viaje: llenas la nube antes de volver",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "tecnologia-03",
-          "leftLabel": "Foto que guardas",
-          "rightLabel": "Foto que conviertes en fondo de pantalla",
+          "leftLabel": "Pagos: sacas la tarjeta",
+          "rightLabel": "Pagos: resuelves todo con Bizum",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "tecnologia-04",
-          "leftLabel": "Grupo de WhatsApp tranquilo",
-          "rightLabel": "Grupo de WhatsApp que necesita moderador",
+          "leftLabel": "WhatsApp: respondes con un «vale»",
+          "rightLabel": "WhatsApp: mandas un audio de cuatro minutos",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "tecnologia-05",
-          "leftLabel": "Gadget que resuelve un problema",
-          "rightLabel": "Gadget que crea una nueva afición",
+          "leftLabel": "Videojuegos: una partida al Mario Kart",
+          "rightLabel": "Videojuegos: estudias el parche antes de jugar",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "tecnologia-06",
-          "leftLabel": "Videojuego para echar un rato",
-          "rightLabel": "Videojuego que borra la tarde",
+          "leftLabel": "Cacharrería: un cargador de repuesto",
+          "rightLabel": "Cacharrería: una caja para cada cable",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "tecnologia-07",
-          "leftLabel": "Contraseña fácil de recordar",
-          "rightLabel": "Contraseña que exige un gestor",
+          "leftLabel": "Redes: miras TikTok un rato",
+          "rightLabel": "Redes: sales con tres audios y una teoría",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "tecnologia-08",
-          "leftLabel": "Compra tecnológica que te ahorra tiempo",
-          "rightLabel": "Compra tecnológica que te obliga a hacer un curso",
+          "leftLabel": "Streaming: una plataforma y gracias",
+          "rightLabel": "Streaming: rotas entre Netflix, Max y Filmin",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "tecnologia-09",
-          "leftLabel": "Notificación que puedes ignorar",
-          "rightLabel": "Notificación que cambia el día",
+          "leftLabel": "Navegador: cuatro pestañas abiertas",
+          "rightLabel": "Navegador: 37 pestañas y ninguna se cierra",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "tecnologia-10",
-          "leftLabel": "Suscripción que merece la cuota",
-          "rightLabel": "Suscripción que se come el presupuesto",
+          "leftLabel": "IA: le pides un resumen",
+          "rightLabel": "IA: le montas un asistente para organizarte la semana",
           "tone": "adulto",
           "enabled": true
         }
@@ -842,71 +842,71 @@
       "scales": [
         {
           "id": "trabajo-estudios-01",
-          "leftLabel": "Tarea que haces antes de comer",
-          "rightLabel": "Tarea que te persigue hasta el domingo",
+          "leftLabel": "Tarea: la despachas antes del primer café",
+          "rightLabel": "Tarea: aparece en tu cabeza al apagar la luz",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-02",
-          "leftLabel": "Reunión que podía ser un mensaje",
-          "rightLabel": "Reunión que decide el trimestre",
+          "leftLabel": "Reunión: sales con un mensaje claro",
+          "rightLabel": "Reunión: sales con otra reunión en el calendario",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-03",
-          "leftLabel": "Examen que repasas la víspera",
-          "rightLabel": "Examen que reorganiza tu calendario",
+          "leftLabel": "Examen: repasas los apuntes",
+          "rightLabel": "Examen: conviertes la biblioteca en tu domicilio",
           "tone": "familiar",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-04",
-          "leftLabel": "Compañero que ayuda un momento",
-          "rightLabel": "Compañero que te salva el proyecto",
+          "leftLabel": "Apuntes: compartes el PDF",
+          "rightLabel": "Apuntes: tienes colores, flechas y un índice",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-05",
-          "leftLabel": "Presentación que sale correcta",
-          "rightLabel": "Presentación que abre una puerta",
+          "leftLabel": "Trabajo en equipo: repartís las partes",
+          "rightLabel": "Trabajo en equipo: acabas siendo productor, editor y portavoz",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-06",
-          "leftLabel": "Trabajo de verano que se olvida",
-          "rightLabel": "Trabajo de verano que te cambia de sector",
+          "leftLabel": "Presentación: lees dos diapositivas",
+          "rightLabel": "Presentación: sales con un micro y una anécdota",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-07",
-          "leftLabel": "Jefe que responde al correo",
-          "rightLabel": "Jefe que cambia el ambiente de la oficina",
+          "leftLabel": "Oficina: café de máquina",
+          "rightLabel": "Oficina: conoces la cafetera como si fuera un bar de barrio",
           "tone": "amigos",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-08",
-          "leftLabel": "Sueldo que cubre el mes",
-          "rightLabel": "Sueldo que te permite decir que no",
+          "leftLabel": "Teletrabajo: trabajas desde una mesa",
+          "rightLabel": "Teletrabajo: conviertes el salón en una oficina de consultoría",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-09",
-          "leftLabel": "Horario que deja tardes",
-          "rightLabel": "Horario que hace del trabajo tu vida social",
+          "leftLabel": "Currículum: una página limpia",
+          "rightLabel": "Currículum: incluye proyectos, idiomas y un QR",
           "tone": "adulto",
           "enabled": true
         },
         {
           "id": "trabajo-estudios-10",
-          "leftLabel": "Decisión académica que pruebas un curso",
-          "rightLabel": "Decisión académica que te cambia la ciudad",
+          "leftLabel": "Ascenso: celebras con una caña",
+          "rightLabel": "Ascenso: ya estás negociando condiciones",
           "tone": "adulto",
           "enabled": true
         }

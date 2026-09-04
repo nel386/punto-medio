@@ -2,15 +2,15 @@
   "categoryId": "ocio",
   "categoryName": "Ocio",
   "scales": [
-    { "id": "ocio-01", "leftLabel": "Plan de domingo que te despierta", "rightLabel": "Plan de domingo que te devuelve a casa al anochecer", "tone": "familiar", "enabled": true },
-    { "id": "ocio-02", "leftLabel": "Juego de mesa para echar una partida", "rightLabel": "Juego de mesa que saca al competitivo del grupo", "tone": "familiar", "enabled": true },
-    { "id": "ocio-03", "leftLabel": "Libro que entretiene un viaje", "rightLabel": "Libro que prestas con miedo a no recuperarlo", "tone": "familiar", "enabled": true },
-    { "id": "ocio-04", "leftLabel": "Concierto al que vas por acompañar", "rightLabel": "Concierto que te deja sin voz", "tone": "amigos", "enabled": true },
-    { "id": "ocio-05", "leftLabel": "Serie para poner de fondo", "rightLabel": "Serie que te roba la hora de dormir", "tone": "amigos", "enabled": true },
-    { "id": "ocio-06", "leftLabel": "Afición que pruebas un mes", "rightLabel": "Afición que acaba ocupando un armario", "tone": "amigos", "enabled": true },
-    { "id": "ocio-07", "leftLabel": "Plan que se decide en cinco minutos", "rightLabel": "Plan que el grupo recuerda todo el año", "tone": "amigos", "enabled": true },
-    { "id": "ocio-08", "leftLabel": "Entrada que compras por impulso", "rightLabel": "Entrada que persigues durante meses", "tone": "adulto", "enabled": true },
-    { "id": "ocio-09", "leftLabel": "Escapada que cabe en un puente", "rightLabel": "Escapada que exige pedir vacaciones", "tone": "adulto", "enabled": true },
-    { "id": "ocio-10", "leftLabel": "Hobby para desconectar", "rightLabel": "Hobby que reorganiza tus fines de semana", "tone": "adulto", "enabled": true }
+    { "id": "ocio-01", "leftLabel": "Paseo de domingo con vuelta antes de merendar", "rightLabel": "Excursión con bocata, manta y linterna", "tone": "familiar", "enabled": true },
+    { "id": "ocio-02", "leftLabel": "Partida de mesa sin leer las reglas", "rightLabel": "Catan con el puerto disputado y revancha", "tone": "familiar", "enabled": true },
+    { "id": "ocio-03", "leftLabel": "Libro para el trayecto en tren", "rightLabel": "Saga capaz de hacerte perder la parada", "tone": "familiar", "enabled": true },
+    { "id": "ocio-04", "leftLabel": "Concierto en la plaza del pueblo", "rightLabel": "Festival con pulsera, camping y barro", "tone": "amigos", "enabled": true },
+    { "id": "ocio-05", "leftLabel": "Un capítulo de The Office antes de dormir", "rightLabel": "Temporada completa con pizza fría al amanecer", "tone": "amigos", "enabled": true },
+    { "id": "ocio-06", "leftLabel": "Taller de cerámica de una tarde", "rightLabel": "Afición con herramientas ocupando el salón", "tone": "amigos", "enabled": true },
+    { "id": "ocio-07", "leftLabel": "Escape room para echar la tarde", "rightLabel": "Escape room con ranking, revancha y grupo de WhatsApp", "tone": "amigos", "enabled": true },
+    { "id": "ocio-08", "leftLabel": "Cine de barrio con palomitas compartidas", "rightLabel": "Estreno IMAX con viaje a otra ciudad", "tone": "adulto", "enabled": true },
+    { "id": "ocio-09", "leftLabel": "Escapada de puente con una mochila", "rightLabel": "Viaje con vacaciones, escalas y seguro", "tone": "adulto", "enabled": true },
+    { "id": "ocio-10", "leftLabel": "Domingo libre para improvisar", "rightLabel": "Fin de semana bloqueado por entradas y reservas", "tone": "adulto", "enabled": true }
   ]
 }

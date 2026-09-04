@@ -2,15 +2,15 @@
   "categoryId": "tecnologia",
   "categoryName": "Tecnología",
   "scales": [
-    { "id": "tecnologia-01", "leftLabel": "Móvil que solo usas para llamar", "rightLabel": "Móvil que lleva tu vida entera", "tone": "familiar", "enabled": true },
-    { "id": "tecnologia-02", "leftLabel": "App que abres una vez al mes", "rightLabel": "App que miras antes de levantarte", "tone": "familiar", "enabled": true },
-    { "id": "tecnologia-03", "leftLabel": "Foto que guardas", "rightLabel": "Foto que conviertes en fondo de pantalla", "tone": "familiar", "enabled": true },
-    { "id": "tecnologia-04", "leftLabel": "Grupo de WhatsApp tranquilo", "rightLabel": "Grupo de WhatsApp que necesita moderador", "tone": "amigos", "enabled": true },
-    { "id": "tecnologia-05", "leftLabel": "Gadget que resuelve un problema", "rightLabel": "Gadget que crea una nueva afición", "tone": "amigos", "enabled": true },
-    { "id": "tecnologia-06", "leftLabel": "Videojuego para echar un rato", "rightLabel": "Videojuego que borra la tarde", "tone": "amigos", "enabled": true },
-    { "id": "tecnologia-07", "leftLabel": "Contraseña fácil de recordar", "rightLabel": "Contraseña que exige un gestor", "tone": "amigos", "enabled": true },
-    { "id": "tecnologia-08", "leftLabel": "Compra tecnológica que te ahorra tiempo", "rightLabel": "Compra tecnológica que te obliga a hacer un curso", "tone": "adulto", "enabled": true },
-    { "id": "tecnologia-09", "leftLabel": "Notificación que puedes ignorar", "rightLabel": "Notificación que cambia el día", "tone": "adulto", "enabled": true },
-    { "id": "tecnologia-10", "leftLabel": "Suscripción que merece la cuota", "rightLabel": "Suscripción que se come el presupuesto", "tone": "adulto", "enabled": true }
+    { "id": "tecnologia-01", "leftLabel": "En casa: enchufas y listo", "rightLabel": "En casa: le pides a Alexa que baje la persiana", "tone": "familiar", "enabled": true },
+    { "id": "tecnologia-02", "leftLabel": "Fotos del viaje: vuelves con veinte", "rightLabel": "Fotos del viaje: llenas la nube antes de volver", "tone": "familiar", "enabled": true },
+    { "id": "tecnologia-03", "leftLabel": "Pagos: sacas la tarjeta", "rightLabel": "Pagos: resuelves todo con Bizum", "tone": "familiar", "enabled": true },
+    { "id": "tecnologia-04", "leftLabel": "WhatsApp: respondes con un «vale»", "rightLabel": "WhatsApp: mandas un audio de cuatro minutos", "tone": "amigos", "enabled": true },
+    { "id": "tecnologia-05", "leftLabel": "Videojuegos: una partida al Mario Kart", "rightLabel": "Videojuegos: estudias el parche antes de jugar", "tone": "amigos", "enabled": true },
+    { "id": "tecnologia-06", "leftLabel": "Cacharrería: un cargador de repuesto", "rightLabel": "Cacharrería: una caja para cada cable", "tone": "amigos", "enabled": true },
+    { "id": "tecnologia-07", "leftLabel": "Redes: miras TikTok un rato", "rightLabel": "Redes: sales con tres audios y una teoría", "tone": "amigos", "enabled": true },
+    { "id": "tecnologia-08", "leftLabel": "Streaming: una plataforma y gracias", "rightLabel": "Streaming: rotas entre Netflix, Max y Filmin", "tone": "adulto", "enabled": true },
+    { "id": "tecnologia-09", "leftLabel": "Navegador: cuatro pestañas abiertas", "rightLabel": "Navegador: 37 pestañas y ninguna se cierra", "tone": "adulto", "enabled": true },
+    { "id": "tecnologia-10", "leftLabel": "IA: le pides un resumen", "rightLabel": "IA: le montas un asistente para organizarte la semana", "tone": "adulto", "enabled": true }
   ]
 }

@@ -5,7 +5,7 @@
 - Tests automatizados: 7 pasados.
 - Build de producción web: correcto.
 - Servidor de desarrollo: responde HTTP 200 y sirve `Punto Medio`.
-- Catálogo: 20 categorías, 300 escalas, sin duplicados ni errores de estructura.
+- Catálogo: 12 categorías, 120 escalas, sin duplicados ni errores de estructura.
 - Sincronización Capacitor Android: correcta.
 - APK debug: pendiente en este entorno porque no hay JDK/`JAVA_HOME` disponible.
 

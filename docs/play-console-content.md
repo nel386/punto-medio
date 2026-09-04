@@ -54,7 +54,7 @@ Condiciones de release:
 - **No diseñada para niños.**
 - Seleccionar únicamente la franja adulta disponible en el formulario si el propietario mantiene el tono `adulto` y el catálogo actual.
 - No marcar grupos de edad infantil solo porque exista un tono llamado «familiar».
-- No afirmar «apta para todas las edades» sin completar la revisión humana de las 300 escalas.
+- No afirmar «apta para todas las edades» sin completar la revisión humana de las 120 escalas.
 
 Razón editorial: el producto permite elegir un tono adulto y el catálogo incluye, entre otros, temas de relaciones, dinero y estatus, fiesta, vino, resaca, rupturas y riesgo. La selección final de audiencia es una decisión del propietario; si se desea incluir menores, habrá que separar o retirar el contenido maduro, revisar los anuncios y volver a contestar los formularios.
 
@@ -103,4 +103,3 @@ No usar estas filas para justificar una edad numérica sin ejecutar el cuestiona
 - [Content rating requirements — Google Play Console Help](https://support.google.com/googleplay/android-developer/answer/9859655)
 - [Google Play Families Policies](https://support.google.com/googleplay/android-developer/answer/9893335)
 - [User Data / Data Safety — Google Play Console Help](https://support.google.com/googleplay/android-developer/answer/10144311)
-

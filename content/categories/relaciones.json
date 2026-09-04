@@ -2,15 +2,15 @@
   "categoryId": "relaciones",
   "categoryName": "Relaciones",
   "scales": [
-    { "id": "relaciones-01", "leftLabel": "Cita que pasa rápido", "rightLabel": "Cita que te hace perder el último tren", "tone": "familiar", "enabled": true },
-    { "id": "relaciones-02", "leftLabel": "Mensaje que invita a hablar", "rightLabel": "Mensaje que te hace revisar toda la conversación", "tone": "familiar", "enabled": true },
-    { "id": "relaciones-03", "leftLabel": "Primera impresión que se olvida", "rightLabel": "Primera impresión que marca la relación", "tone": "familiar", "enabled": true },
-    { "id": "relaciones-04", "leftLabel": "Persona con la que te ríes", "rightLabel": "Persona con la que te metes en líos", "tone": "amigos", "enabled": true },
-    { "id": "relaciones-05", "leftLabel": "Plan romántico que sale bien", "rightLabel": "Plan romántico que se convierte en anécdota", "tone": "amigos", "enabled": true },
-    { "id": "relaciones-06", "leftLabel": "Señal de alarma que puedes debatir", "rightLabel": "Señal de alarma que te hace salir por la puerta", "tone": "amigos", "enabled": true },
-    { "id": "relaciones-07", "leftLabel": "Ex que recuerdas con cariño", "rightLabel": "Ex que convierte una boda en una misión", "tone": "amigos", "enabled": true },
-    { "id": "relaciones-08", "leftLabel": "Cita que repetirías", "rightLabel": "Cita que contarías en el grupo", "tone": "adulto", "enabled": true },
-    { "id": "relaciones-09", "leftLabel": "Relación que deja espacio", "rightLabel": "Relación que ocupa hasta tus domingos", "tone": "adulto", "enabled": true },
-    { "id": "relaciones-10", "leftLabel": "Detalle que suma puntos", "rightLabel": "Detalle que te hace cambiar de planes", "tone": "adulto", "enabled": true }
+    { "id": "relaciones-01", "leftLabel": "Primera cita con café y hora de cierre", "rightLabel": "Primera cita con churros de prórroga", "tone": "familiar", "enabled": true },
+    { "id": "relaciones-02", "leftLabel": "Mensaje con un pulgar arriba", "rightLabel": "Mensaje con un «tenemos que hablar»", "tone": "familiar", "enabled": true },
+    { "id": "relaciones-03", "leftLabel": "Pareja para compartir una serie", "rightLabel": "Pareja capaz de cambiar tu algoritmo, tu barrio y tu agenda", "tone": "familiar", "enabled": true },
+    { "id": "relaciones-04", "leftLabel": "Cita con conversación de ascensor", "rightLabel": "Cita con karaoke de madrugada", "tone": "amigos", "enabled": true },
+    { "id": "relaciones-05", "leftLabel": "Plan romántico con velas", "rightLabel": "Plan romántico con mapa, bocadillos y último metro", "tone": "amigos", "enabled": true },
+    { "id": "relaciones-06", "leftLabel": "Red flag en amarillo", "rightLabel": "Red flag tamaño Plaza Mayor", "tone": "amigos", "enabled": true },
+    { "id": "relaciones-07", "leftLabel": "Ex con sitio en un saludo", "rightLabel": "Ex con aparición estelar en cada boda y cumpleaños", "tone": "amigos", "enabled": true },
+    { "id": "relaciones-08", "leftLabel": "Regalo elegido en la cola de caja", "rightLabel": "Regalo con lista de espera y nota de voz", "tone": "adulto", "enabled": true },
+    { "id": "relaciones-09", "leftLabel": "Relación con un cajón propio", "rightLabel": "Relación con cepillo, planta y contraseña del wifi", "tone": "adulto", "enabled": true },
+    { "id": "relaciones-10", "leftLabel": "Discusión por la serie", "rightLabel": "Discusión con mudanzas y suegros en el tercer acto", "tone": "adulto", "enabled": true }
   ]
 }

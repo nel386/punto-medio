@@ -4,7 +4,7 @@
 
 - [x] Reglas y puntuación aprobadas.
 - [x] Dirección UX aprobada.
-- [x] 300 escalas revisadas automáticamente.
+- [x] 120 escalas editoriales redactadas y revisadas automáticamente.
 - [x] Núcleo jugable implementado.
 - [x] Tres modos funcionando.
 - [x] Offline preparado.

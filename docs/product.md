@@ -18,7 +18,7 @@ El producto sirve para grupos de amigos, reuniones y familia. Antes de jugar se 
 
 ## Alcance
 
-- 20 categorías y 300 escalas.
+- 12 categorías premium y 120 escalas editoriales.
 - Tres modos locales en un dispositivo.
 - Guardado local y funcionamiento offline.
 - App Android empaquetada desde el núcleo web.

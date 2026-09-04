@@ -6,6 +6,10 @@ const endpointLabels = allScales.flatMap((scale) => [scale.leftLabel, scale.righ
 
 describe("catálogo offline", () => {
   it("contiene 12 categorías y 120 escalas", () => {
+    expect(categories.map((category) => category.categoryId)).toEqual([
+      "deporte", "ocio", "fiesta", "comida-bebida", "viajes", "television-cine",
+      "cultura", "amistad", "relaciones", "personalidad", "tecnologia", "trabajo-estudios",
+    ]);
     expect(categories).toHaveLength(12);
     expect(allScales).toHaveLength(120);
     expect(categories.every((category) => category.scales.length > 0)).toBe(true);
@@ -46,9 +50,8 @@ describe("catálogo offline", () => {
     ]);
     expect(endpointLabels.some((label) => knownVaguePlaceholders.has(label))).toBe(false);
 
-    const contextualCue = /\b(que|con|para|de|en|a|al|del|sin|hasta|por|entre|una|un|como|también|el|la|los|las)\b/i;
     const genericTemplate = /\b(proyecto que|referencia|pequeño|grande|fecha cultural cualquiera)\b/i;
-    expect(allScales.every((scale) => contextualCue.test(`${scale.leftLabel} ${scale.rightLabel}`))).toBe(true);
+    expect(endpointLabels.every((label) => label.trim().split(/\s+/).length >= 2)).toBe(true);
     expect(allScales.every((scale) => !genericTemplate.test(`${scale.leftLabel} ${scale.rightLabel}`))).toBe(true);
   });
 

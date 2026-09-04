@@ -2,15 +2,15 @@
   "categoryId": "television-cine",
   "categoryName": "Televisión y cine",
   "scales": [
-    { "id": "television-cine-01", "leftLabel": "Película para ver en familia", "rightLabel": "Película que todos recuerdan al día siguiente", "tone": "familiar", "enabled": true },
-    { "id": "television-cine-02", "leftLabel": "Serie de un episodio", "rightLabel": "Serie de la que ves media temporada", "tone": "familiar", "enabled": true },
-    { "id": "television-cine-03", "leftLabel": "Actor que reconoces", "rightLabel": "Actor que sostiene toda la película", "tone": "familiar", "enabled": true },
-    { "id": "television-cine-04", "leftLabel": "Película que ves por pasar el rato", "rightLabel": "Película que recomiendas esa misma noche", "tone": "amigos", "enabled": true },
-    { "id": "television-cine-05", "leftLabel": "Final que te parece correcto", "rightLabel": "Final que obliga a discutirlo", "tone": "amigos", "enabled": true },
-    { "id": "television-cine-06", "leftLabel": "Reality que ves por accidente", "rightLabel": "Reality del que te sabes todos los nombres", "tone": "amigos", "enabled": true },
-    { "id": "television-cine-07", "leftLabel": "Personaje que cae bien", "rightLabel": "Personaje que se queda con la serie", "tone": "amigos", "enabled": true },
-    { "id": "television-cine-08", "leftLabel": "Película que ves con palomitas", "rightLabel": "Película que te deja mirando los créditos", "tone": "adulto", "enabled": true },
-    { "id": "television-cine-09", "leftLabel": "Serie que puedes ver mientras haces otra cosa", "rightLabel": "Serie que exige el móvil lejos", "tone": "adulto", "enabled": true },
-    { "id": "television-cine-10", "leftLabel": "Película por la que pagarías una entrada", "rightLabel": "Película por la que esperarías hasta el estreno", "tone": "adulto", "enabled": true }
+    { "id": "television-cine-01", "leftLabel": "Peli de sobremesa", "rightLabel": "Estreno de Disney con palomitas", "tone": "familiar", "enabled": true },
+    { "id": "television-cine-02", "leftLabel": "Capítulo de veinte minutos", "rightLabel": "Final de temporada de una hora", "tone": "familiar", "enabled": true },
+    { "id": "television-cine-03", "leftLabel": "Villano de dibujos", "rightLabel": "Villano que da miedo a los mayores", "tone": "familiar", "enabled": true },
+    { "id": "television-cine-04", "leftLabel": "Comedia española de domingo", "rightLabel": "Thriller coreano con subtítulos y teorías", "tone": "amigos", "enabled": true },
+    { "id": "television-cine-05", "leftLabel": "Serie de un episodio", "rightLabel": "Serie con grupo de WhatsApp", "tone": "amigos", "enabled": true },
+    { "id": "television-cine-06", "leftLabel": "Reality para comentar el lunes", "rightLabel": "Reality que convierte el sofá en un plató", "tone": "amigos", "enabled": true },
+    { "id": "television-cine-07", "leftLabel": "Cameo reconocible", "rightLabel": "Universo lleno de easter eggs", "tone": "amigos", "enabled": true },
+    { "id": "television-cine-08", "leftLabel": "Peli para apagar el cerebro", "rightLabel": "Peli con final explicado en otra pestaña", "tone": "adulto", "enabled": true },
+    { "id": "television-cine-09", "leftLabel": "Entrada de cine con descuento", "rightLabel": "Sesión IMAX en versión original", "tone": "adulto", "enabled": true },
+    { "id": "television-cine-10", "leftLabel": "Serie de fondo mientras haces la cena", "rightLabel": "Serie con móvil fuera y libreta", "tone": "adulto", "enabled": true }
   ]
 }

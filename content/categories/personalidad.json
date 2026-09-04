@@ -2,15 +2,15 @@
   "categoryId": "personalidad",
   "categoryName": "Personalidad",
   "scales": [
-    { "id": "personalidad-01", "leftLabel": "Persona que habla poco", "rightLabel": "Persona que acaba organizando la mesa", "tone": "familiar", "enabled": true },
-    { "id": "personalidad-02", "leftLabel": "Alguien con buen humor", "rightLabel": "Alguien que convierte todo en una historia", "tone": "familiar", "enabled": true },
-    { "id": "personalidad-03", "leftLabel": "Persona que improvisa un plan", "rightLabel": "Persona que improvisa hasta la mudanza", "tone": "familiar", "enabled": true },
-    { "id": "personalidad-04", "leftLabel": "Nivel de cotilleo que compartes", "rightLabel": "Nivel de cotilleo que exige nombres y contexto", "tone": "amigos", "enabled": true },
-    { "id": "personalidad-05", "leftLabel": "Timidez que se pasa con un café", "rightLabel": "Timidez que necesita presentación oficial", "tone": "amigos", "enabled": true },
-    { "id": "personalidad-06", "leftLabel": "Opinión que mantienes", "rightLabel": "Opinión por la que preparas un alegato", "tone": "amigos", "enabled": true },
-    { "id": "personalidad-07", "leftLabel": "Persona competitiva en un juego", "rightLabel": "Persona que pide revancha antes de terminar", "tone": "amigos", "enabled": true },
-    { "id": "personalidad-08", "leftLabel": "Encanto que funciona en una primera cita", "rightLabel": "Encanto que convierte cualquier sala en suya", "tone": "adulto", "enabled": true },
-    { "id": "personalidad-09", "leftLabel": "Manía que hace gracia", "rightLabel": "Manía que reorganiza la convivencia", "tone": "adulto", "enabled": true },
-    { "id": "personalidad-10", "leftLabel": "Persona difícil de leer", "rightLabel": "Persona que deja clarísimo lo que piensa", "tone": "adulto", "enabled": true }
+    { "id": "personalidad-01", "leftLabel": "En una sobremesa: esperas tu turno", "rightLabel": "En una sobremesa: tienes una anécdota para cada plato", "tone": "familiar", "enabled": true },
+    { "id": "personalidad-02", "leftLabel": "Cuando se tuerce el plan: improvisas una solución", "rightLabel": "Cuando se tuerce el plan: declaras inaugurado el plan B", "tone": "familiar", "enabled": true },
+    { "id": "personalidad-03", "leftLabel": "Para escoger sitio: te vale el de siempre", "rightLabel": "Para escoger sitio: comparas reseñas hasta encontrar el de moda", "tone": "familiar", "enabled": true },
+    { "id": "personalidad-04", "leftLabel": "Cotilleo: traes el titular", "rightLabel": "Cotilleo: traes nombres, fechas y captura", "tone": "amigos", "enabled": true },
+    { "id": "personalidad-05", "leftLabel": "Broma a tu costa: sonríes y sigues", "rightLabel": "Broma a tu costa: respondes con un especial de Netflix", "tone": "amigos", "enabled": true },
+    { "id": "personalidad-06", "leftLabel": "Plan de viernes: propones una caña", "rightLabel": "Plan de viernes: produces una noche con horarios y dress code", "tone": "amigos", "enabled": true },
+    { "id": "personalidad-07", "leftLabel": "Debate en el grupo: dices tu opinión", "rightLabel": "Debate en el grupo: preparas un alegato con réplica", "tone": "amigos", "enabled": true },
+    { "id": "personalidad-08", "leftLabel": "Primera cita: conversación sin silencios raros", "rightLabel": "Primera cita: sales con una historia para contar", "tone": "adulto", "enabled": true },
+    { "id": "personalidad-09", "leftLabel": "Casa: cada cosa tiene su sitio", "rightLabel": "Casa: hasta los cables tienen sistema de archivo", "tone": "adulto", "enabled": true },
+    { "id": "personalidad-10", "leftLabel": "Cambio de opinión: te basta un buen dato", "rightLabel": "Cambio de opinión: necesitas una comisión de expertos", "tone": "adulto", "enabled": true }
   ]
 }

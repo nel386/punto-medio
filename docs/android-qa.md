@@ -18,7 +18,7 @@ Fecha de comprobación: 2026-09-04
 | Iconos PWA | FAIL | `public/manifest.webmanifest` tiene `icons: []`; no bloquea el APK, pero debe completarse para instalación PWA. |
 | Anuncios offline | PASS (estático) | El proveedor por defecto es `NoopAds`; el límite de proveedor exige red y consentimiento explícito. |
 | Service worker | PASS (estático) | Precachea shell/PNG, descubre JS/CSS hashados del `index.html`, cachea GET same-origin y aplica fallback a `index.html`. |
-| Categorías offline | PASS (estático) | Las 20 categorías/300 escalas se importan en `src/content/catalog.ts` y quedan dentro del bundle JS. |
+| Categorías offline | PASS (estático) | Las 12 categorías/120 escalas se importan en `src/content/catalog.ts` y quedan dentro del bundle JS. |
 | Smoke offline real | NOT RUN | No se pudo aislar una sesión de navegador con red desactivada; no se presenta como prueba real. |
 | Responsive 320/390/escritorio | PASS (estático) / NOT RUN (viewport real) | Existen breakpoints para 560/850 px, `min-width: 320px`, tarjeta inferior fija en setup móvil y reglas de rueda/marcador. Falta captura real a 320 y 390 px. |
 | Rotación/suspensión | PASS (estático) / NOT RUN (dispositivo) | Android declara `configChanges` para orientación y la sesión se persiste en `localStorage`; falta prueba en móvil/emulador. |

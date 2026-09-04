@@ -2,15 +2,15 @@
   "categoryId": "comida-bebida",
   "categoryName": "Comida y bebida",
   "scales": [
-    { "id": "comida-bebida-01", "leftLabel": "Desayuno que te pone en marcha", "rightLabel": "Desayuno que justifica madrugar", "tone": "familiar", "enabled": true },
-    { "id": "comida-bebida-02", "leftLabel": "Tapa para acompañar", "rightLabel": "Tapa que manda pedir otra ronda", "tone": "familiar", "enabled": true },
-    { "id": "comida-bebida-03", "leftLabel": "Pizza de una noche cualquiera", "rightLabel": "Pizza que merece su propio viaje", "tone": "familiar", "enabled": true },
-    { "id": "comida-bebida-04", "leftLabel": "Restaurante al que vas sin reservar", "rightLabel": "Restaurante que reservas con semanas", "tone": "amigos", "enabled": true },
-    { "id": "comida-bebida-05", "leftLabel": "Plato que pruebas por curiosidad", "rightLabel": "Plato que defiendes como patrimonio", "tone": "amigos", "enabled": true },
-    { "id": "comida-bebida-06", "leftLabel": "Café para despejarse", "rightLabel": "Café que convierte la sobremesa en reunión", "tone": "amigos", "enabled": true },
-    { "id": "comida-bebida-07", "leftLabel": "Bocadillo de gasolinera", "rightLabel": "Bocadillo que salva el viaje", "tone": "amigos", "enabled": true },
-    { "id": "comida-bebida-08", "leftLabel": "Cena que cabe en casa", "rightLabel": "Cena que termina con toda la mesa brindando", "tone": "adulto", "enabled": true },
-    { "id": "comida-bebida-09", "leftLabel": "Botella para brindar", "rightLabel": "Botella que guardas para una ocasión", "tone": "adulto", "enabled": true },
-    { "id": "comida-bebida-10", "leftLabel": "Menú que satisface", "rightLabel": "Menú que cambia tu idea de la cocina", "tone": "adulto", "enabled": true }
+    { "id": "comida-bebida-01", "leftLabel": "Tostada y café", "rightLabel": "Churros con chocolate", "tone": "familiar", "enabled": true },
+    { "id": "comida-bebida-02", "leftLabel": "Aceitunas de cortesía", "rightLabel": "Patatas bravas para toda la mesa", "tone": "familiar", "enabled": true },
+    { "id": "comida-bebida-03", "leftLabel": "Helado de una bola", "rightLabel": "Helado con toppings, salsa y servilleta de repuesto", "tone": "familiar", "enabled": true },
+    { "id": "comida-bebida-04", "leftLabel": "Bocadillo de máquina", "rightLabel": "Bocadillo de calamares en Madrid", "tone": "amigos", "enabled": true },
+    { "id": "comida-bebida-05", "leftLabel": "Pizza para compartir", "rightLabel": "Pizza que no se comparte ni con tu madre", "tone": "amigos", "enabled": true },
+    { "id": "comida-bebida-06", "leftLabel": "Café de máquina", "rightLabel": "Café de especialidad con nombre de finca", "tone": "amigos", "enabled": true },
+    { "id": "comida-bebida-07", "leftLabel": "Menú del día", "rightLabel": "Menú degustación de siete pases", "tone": "amigos", "enabled": true },
+    { "id": "comida-bebida-08", "leftLabel": "Vino para cocinar", "rightLabel": "Vino para abrir una conversación pendiente", "tone": "adulto", "enabled": true },
+    { "id": "comida-bebida-09", "leftLabel": "Cena de picoteo", "rightLabel": "Cena con sobremesa, copa y segunda botella", "tone": "adulto", "enabled": true },
+    { "id": "comida-bebida-10", "leftLabel": "Cuenta que pagas sin mirar", "rightLabel": "Cuenta dividida en nueve transferencias", "tone": "adulto", "enabled": true }
   ]
 }

@@ -3,7 +3,7 @@
 - Android primero, con núcleo web reutilizable.
 - Juego local pass-and-play en un solo móvil.
 - Funcionamiento offline; la publicidad se omite cuando no hay conexión.
-- 300 escalas iniciales en 20 categorías.
+- 120 escalas editoriales iniciales en 12 categorías premium.
 - Selector de tono siempre disponible: familiar, amigos y adulto.
 - Modos: clásico, modificadores y escalas personalizadas.
 - Contenido generado por IA y revisado antes de incorporarse.

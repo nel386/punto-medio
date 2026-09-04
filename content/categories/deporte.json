@@ -2,15 +2,15 @@
   "categoryId": "deporte",
   "categoryName": "Deporte",
   "scales": [
-    { "id": "deporte-01", "leftLabel": "Partido que se ve de fondo", "rightLabel": "Partido que hace callar el salón", "tone": "familiar", "enabled": true },
-    { "id": "deporte-02", "leftLabel": "Paseo en bici para despejarse", "rightLabel": "Ruta en bici que merece una medalla", "tone": "familiar", "enabled": true },
-    { "id": "deporte-03", "leftLabel": "Jugador que cumple", "rightLabel": "Jugador que cambia la historia del club", "tone": "familiar", "enabled": true },
-    { "id": "deporte-04", "leftLabel": "Fichaje que ilusiona en verano", "rightLabel": "Fichaje que pone al rival a temblar", "tone": "amigos", "enabled": true },
-    { "id": "deporte-05", "leftLabel": "Gol que te levanta del sofá", "rightLabel": "Gol que se cuenta diez años después", "tone": "amigos", "enabled": true },
-    { "id": "deporte-06", "leftLabel": "Derbi que se comenta el lunes", "rightLabel": "Derbi que divide la mesa", "tone": "amigos", "enabled": true },
-    { "id": "deporte-07", "leftLabel": "Carrera futbolística que se apaga pronto", "rightLabel": "Carrera futbolística legendaria", "tone": "amigos", "enabled": true },
-    { "id": "deporte-08", "leftLabel": "Contrato que te da tranquilidad", "rightLabel": "Contrato que te cambia la vida", "tone": "adulto", "enabled": true },
-    { "id": "deporte-09", "leftLabel": "Lesión que te hace parar", "rightLabel": "Lesión que redefine tu carrera", "tone": "adulto", "enabled": true },
-    { "id": "deporte-10", "leftLabel": "Partido por el que pagarías una entrada", "rightLabel": "Partido por el que cruzarías Europa", "tone": "adulto", "enabled": true }
+    { "id": "deporte-01", "leftLabel": "Partido de fondo mientras se pela la patata", "rightLabel": "Final con la sobremesa en absoluto silencio", "tone": "familiar", "enabled": true },
+    { "id": "deporte-02", "leftLabel": "Paseo en bici hasta la plaza", "rightLabel": "Etapa reina del Tour con puerto y avituallamiento", "tone": "familiar", "enabled": true },
+    { "id": "deporte-03", "leftLabel": "Partido de pádel con vecinos y pelotas perdidas", "rightLabel": "Triatlón con neopreno, dorsal y transición cronometrada", "tone": "familiar", "enabled": true },
+    { "id": "deporte-04", "leftLabel": "Fichaje de verano para vender camisetas", "rightLabel": "Galáctico presentado con fuegos artificiales", "tone": "amigos", "enabled": true },
+    { "id": "deporte-05", "leftLabel": "Gol en el descuento y salto del sofá", "rightLabel": "Remontada del 6-1 todavía discutida en el bar", "tone": "amigos", "enabled": true },
+    { "id": "deporte-06", "leftLabel": "Derbi con bromas en el grupo", "rightLabel": "Clásico con el móvil en modo avión", "tone": "amigos", "enabled": true },
+    { "id": "deporte-07", "leftLabel": "Pachanga con zapatillas limpias", "rightLabel": "Torneo con dorsal, vestuario y tercer tiempo", "tone": "amigos", "enabled": true },
+    { "id": "deporte-08", "leftLabel": "Carrera popular del barrio", "rightLabel": "Maratón con dorsal conseguido hace meses", "tone": "adulto", "enabled": true },
+    { "id": "deporte-09", "leftLabel": "Entrenamiento antes de fichar", "rightLabel": "Semana organizada alrededor del entrenamiento", "tone": "adulto", "enabled": true },
+    { "id": "deporte-10", "leftLabel": "Entrada de grada para ver el partido", "rightLabel": "Viaje europeo con hotel reservado para la final", "tone": "adulto", "enabled": true }
   ]
 }

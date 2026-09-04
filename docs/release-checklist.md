@@ -7,7 +7,7 @@
 - [ ] Probar Android en un dispositivo pequeño y uno grande: pista, debate, colocación, revelado, siguiente ronda, terminar y nueva partida.
 - [ ] Confirmar que no hay publicidad durante pista, debate, colocación, revelado o resultado inmediato.
 - [ ] Confirmar que una red ausente, un proveedor lento, un error del SDK o cero inventario no impiden avanzar.
-- [ ] Revisar manualmente las 20 categorías y los tonos `familiar`, `amigos` y `adulto`.
+- [ ] Revisar manualmente las 12 categorías y los tonos `familiar`, `amigos` y `adulto`.
 - [ ] Completar revisión humana del contenido generado o revisado con IA: datos personales, discriminación, sexualización, violencia, instrucciones peligrosas, sesgos y adecuación a la edad.
 - [ ] Verificar que no se han añadido permisos Android distintos de los estrictamente necesarios.
 - [ ] Revisar la política de privacidad, la clasificación de edad y el texto de divulgación de datos de la tienda.

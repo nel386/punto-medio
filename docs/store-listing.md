@@ -25,7 +25,7 @@ Estado: borrador de ficha y auditoría de materiales. La implementación actual 
 > - Juego local pass-and-play, sin cuentas ni registro.
 > - Funciona sin conexión una vez instalada la aplicación.
 > - Tres modos: Clásico, Modificadores y A vuestra medida.
-> - 20 categorías y 300 escalas editoriales para elegir.
+> - 12 categorías y 120 escalas editoriales para elegir.
 > - Tres tonos para adaptar la partida: Familiar, Amigos y Adulto.
 > - Entre 2 y 6 equipos, con rondas configurables.
 > - Escalas personalizadas: inventad los dos extremos y añadid un tema opcional.
@@ -63,7 +63,7 @@ Las líneas son overlays de tienda; la interfaz debe seguir mostrando el product
 | Nº | Estado que debe mostrarse | Titular de la captura | Línea de apoyo |
 |---:|---|---|---|
 | 1 | Configuración inicial | **Tres formas de jugar** | Clásico, Modificadores y A vuestra medida en un solo móvil. |
-| 2 | Selección de categorías | **Elegid el menú del debate** | 20 categorías y 300 escalas para preparar la partida. |
+| 2 | Selección de categorías | **Elegid el menú del debate** | 12 categorías y 120 escalas para preparar la partida. |
 | 3 | Zona secreta abierta | **Solo quien da la pista puede mirar** | Descubre la zona, piensa una pista y tapa la ruleta. |
 | 4 | Pantalla de entrega | **Pasa el móvil** | La zona ya está oculta. Ahora empieza el debate. |
 | 5 | Colocación de la aguja | **¿Dónde colocaríais la aguja?** | Una pista. Muchas interpretaciones. |
@@ -126,7 +126,7 @@ Mantener visible que se juega en un único dispositivo. Usar texto de apoyo neut
 - [ ] Publicar la política de privacidad y completar el formulario de seguridad de datos con el comportamiento de la build candidata.
 - [ ] Completar clasificación de contenido, público objetivo y adecuación de los tonos `Familiar`, `Amigos` y `Adulto`.
 - [ ] Añadir correo de contacto y datos de asistencia de la ficha.
-- [ ] Ejecutar la lista técnica de `docs/release-checklist.md`, especialmente la prueba en modo avión, la revisión humana de las 20 categorías y la verificación de permisos.
+- [ ] Ejecutar la lista técnica de `docs/release-checklist.md`, especialmente la prueba en modo avión, la revisión humana de las 12 categorías y la verificación de permisos.
 
 ## Decisiones de copy pendientes
 

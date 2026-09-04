@@ -141,7 +141,7 @@ Permite inventar una escala en el momento y es especialmente útil para jugar co
 
 Las escalas personalizadas no se envían a ningún servicio. Se guardan únicamente durante la sesión local y se eliminan al terminar o abandonar la partida. Para encajar con los tipos actuales, la escala temporal se materializa como un `Scale` con `categoryId: "custom"`; `selectedScaleId` apunta a su registro local mientras la ronda está activa.
 
-El resto de la ronda es idéntico al clásico: una persona ve la zona, da una pista, el equipo debate, coloca la aguja y descubre el resultado. Las escalas personalizadas no entran en el mazo permanente ni cuentan dentro de las 300 escalas editoriales.
+El resto de la ronda es idéntico al clásico: una persona ve la zona, da una pista, el equipo debate, coloca la aguja y descubre el resultado. Las escalas personalizadas no entran en el mazo permanente ni cuentan dentro de las 120 escalas editoriales.
 
 ## Persistencia y compatibilidad con los tipos actuales
 

@@ -6,7 +6,7 @@ Viewport revisado: escritorio y mobile 390 × 844; comprobación automatizada ad
 
 ## Veredicto
 
-La experiencia queda preparada para un uso pass-and-play en un solo móvil. La entrada comunica «LOCAL · SIN CUENTAS», la ruta principal es «Nueva partida» → configuración → «Empezar partida» y las 20 categorías siguen accesibles sin convertir el primer arranque en un formulario interminable.
+La experiencia queda preparada para un uso pass-and-play en un solo móvil. La ruta principal es «Nueva partida» → configuración → «Empezar partida» y las 12 categorías siguen accesibles sin convertir el primer arranque en un formulario interminable.
 
 ## Evidencia capturada
 
@@ -32,14 +32,14 @@ Salud: buena. La pista, la ruleta, el ajuste fino y «Bloquear aguja» siguen en
 
 ## Hallazgos y decisiones aplicadas
 
-1. **Entrada de app.** Se conserva el encabezado «Nueva partida» y la señal persistente «LOCAL · SIN CUENTAS». No se reintroducen cuentas, conexión, invitaciones ni multijugador entre dispositivos.
+1. **Entrada de app.** Se conserva el encabezado «Nueva partida» y la entrada va directa a configurar la partida. La documentación explica que el juego es pass-and-play, pero la interfaz no muestra etiquetas técnicas como «LOCAL · SIN CUENTAS», ni cuentas, conexión, invitaciones o multijugador entre dispositivos.
 2. **Ruta principal.** La ficha de inicio es fija solo en viewport estrecho y mantiene «Empezar partida» como única acción dominante. En desktop permanece como resumen lateral.
 3. **Safe areas.** Barra superior, ficha inferior y reserva de scroll usan `env(safe-area-inset-*)`; el contenido deja espacio extra para que el CTA fijo no tape el último control.
-4. **Ancho estrecho.** Se eliminaron los mínimos de contenido que forzaban una columna de 444 px dentro de un viewport de 320 px. Los packs tienen un carril horizontal interno y los equipos pasan a una cuadrícula de dos columnas.
+4. **Ancho estrecho.** Se eliminaron los mínimos de contenido que forzaban una columna de 444 px dentro de un viewport de 320 px. Los packs tienen un carril horizontal interno, las categorías se muestran en tarjetas compactas y los equipos pasan a una cuadrícula de dos columnas.
 5. **Teclado virtual.** Se observa `visualViewport`; cuando el WebView se reduce, la ficha conserva únicamente la acción «Empezar partida». Así el teclado no debería ocultar simultáneamente el campo enfocado y el CTA.
 6. **Transiciones.** Al cambiar de pantalla se vuelve al inicio del scroll. Una ronda nueva ya no hereda la posición del setup y el título no queda cortado bajo la barra superior.
 7. **Targets y estados.** CTA y controles principales tienen al menos 48 px; sumar/quitar equipo y el stepper tienen 44 px. Se conservan `aria-pressed`, labels de inputs, slider accesible y estados `:focus-visible`/`:active`.
-8. **Estilo.** No se añadieron dashboards, blobs, glassmorphism ni gradientes decorativos. La selección de categorías sigue siendo mediante tarjetas y las 20 categorías siguen presentes.
+8. **Estilo.** No se añadieron dashboards, blobs, glassmorphism ni gradientes decorativos. La selección de categorías sigue siendo mediante tarjetas y las 12 categorías siguen presentes.
 
 ## Comprobaciones reales
 
