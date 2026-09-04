@@ -286,7 +286,11 @@ function ScaleBar({ scale, target, gearRotation = 0, needle, reveal = false, sho
   const showNeedleLegend = hasNeedle && (!reveal || showRevealLegend);
   return (
     <div className="scale-wrap" aria-label={`Escala entre ${scale.leftLabel} y ${scale.rightLabel}`}>
-      <div className="scale-labels"><span>{scale.leftLabel}</span><span>{scale.rightLabel}</span></div>
+      <div className="scale-labels">
+        <span className="scale-label-end scale-label-left"><small>0%</small>{scale.leftLabel}</span>
+        <span className="scale-label-midpoint" aria-hidden="true"><i /><small>50%</small><i /></span>
+        <span className="scale-label-end scale-label-right"><small>100%</small>{scale.rightLabel}</span>
+      </div>
       {reveal || interactiveWheel ? <ScoreWheel target={target} gearRotation={gearRotation} needle={hasNeedle || reveal ? (needle ?? 50) : null} showTarget={targetIsVisible} isOpening={isOpening} isClosing={isClosing} shuffleInteractive={shuffleInteractive} showOpener={showOpener} interactive={interactiveWheel} calibration={calibration} animationCalibration={animationCalibration} onNeedleChange={onNeedleChange} onTargetRotate={onTargetRotate} /> : <div className="scale-track is-guessing">
         <span className="scale-band band-warm" />
         <span className="scale-band band-neutral" />

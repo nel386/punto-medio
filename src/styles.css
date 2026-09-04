@@ -464,23 +464,75 @@ button svg { flex: 0 0 auto; width: 16px; height: 16px; stroke-width: 2.2; verti
 
 .scale-labels {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  width: min(100%, var(--wheel-readable-width));
+  grid-template-columns: minmax(0, 1fr) minmax(42px, 74px) minmax(0, 1fr);
+  width: 100%;
   margin-inline: auto;
-  gap: clamp(10px, 3vw, 24px);
-  align-items: start;
+  gap: clamp(10px, 2vw, 24px);
+  align-items: stretch;
   font-size: clamp(13px, calc(11px + .55vw), 18px);
   line-height: 1.2;
 }
 
-.scale-labels span {
+.scale-label-end {
   min-width: 0;
+  min-height: 62px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  padding: 11px 15px 13px;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--coral);
+  border-radius: 10px 10px 4px 10px;
+  background: #faf7f0;
+  box-shadow: 0 3px 0 rgba(23,35,56,.05);
   overflow-wrap: anywhere;
   word-break: normal;
 }
 
-.scale-labels span:first-child { text-align: left; }
-.scale-labels span:last-child { text-align: right; }
+.scale-label-end small {
+  color: var(--coral);
+  font: 10px "DM Mono", monospace;
+  letter-spacing: .08em;
+}
+
+.scale-label-left { text-align: left; }
+
+.scale-label-right {
+  align-items: flex-end;
+  border-top-color: var(--mint);
+  border-radius: 10px 10px 10px 4px;
+  text-align: right;
+}
+
+.scale-label-right small { color: #4b997e; }
+
+.scale-label-midpoint {
+  min-width: 0;
+  min-height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: var(--muted);
+  font: 10px "DM Mono", monospace;
+  letter-spacing: .04em;
+}
+
+.scale-label-midpoint i {
+  width: 1px;
+  height: 19px;
+  background: var(--line);
+}
+
+.scale-label-midpoint i:first-child { transform: rotate(18deg); }
+.scale-label-midpoint i:last-child { transform: rotate(-18deg); }
+
+.scale-label-end,
+.scale-label-midpoint {
+  min-width: 0;
+}
 
 .score-wheel {
   width: min(100%, var(--wheel-frame-width));
@@ -509,10 +561,14 @@ button svg { flex: 0 0 auto; width: 16px; height: 16px; stroke-width: 2.2; verti
 @media (max-width: 560px) {
   .scale-wrap { --wheel-frame-width: 292px; }
   .scale-labels {
-    gap: 10px;
+    grid-template-columns: minmax(0, 1fr) 40px minmax(0, 1fr);
+    gap: 8px;
     font-size: clamp(12px, 3.45vw, 14px);
     line-height: 1.18;
   }
+  .scale-label-end { min-height: 68px; padding: 10px 10px 11px; gap: 5px; }
+  .scale-label-end small { font-size: 9px; }
+  .scale-label-midpoint { min-height: 68px; font-size: 9px; }
 }
 
 /* La escala personalizada comparte una retícula limpia entre sus etiquetas y campos. */
