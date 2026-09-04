@@ -538,11 +538,18 @@ button svg { flex: 0 0 auto; width: 16px; height: 16px; stroke-width: 2.2; verti
   width: auto;
   flex: none;
 }
-.team-inputs > .add-team,
-.team-inputs > .remove-team {
-  width: 100%;
+.team-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+.team-actions > button {
+  flex: 1 1 170px;
   min-width: 0;
-  align-self: start;
+}
+.team-actions > button:only-child {
+  flex: 0 1 190px;
 }
 
 /* Apertura coordinada: tapa y abridor comparten reloj y no rebotan al final. */
