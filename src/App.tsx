@@ -264,8 +264,10 @@ function ScoreWheel({ target, gearRotation = 0, needle, showTarget, isOpening, i
           <img className={`wheel-gear wheel-calibratable${selectedClass("gear")}`} style={calibratedVisualStyle(calibration, "gear")} src="/assets/wheel/parts/gear-ring.png" alt="" draggable="false" />
         </div>
         <img className={`wheel-background wheel-calibratable${selectedClass("background")}`} style={{ ...calibratedVisualStyle(calibration, "background"), zIndex: calibration.background.z }} src="/assets/wheel/parts/background-white.png" alt="" aria-hidden="true" draggable="false" />
-        <div className="wheel-target-pivot" style={{ "--target-angle": `${targetAngle}deg`, zIndex: calibration.target.z } as CSSProperties} aria-hidden="true">
-          <img className={`wheel-target wheel-calibratable${selectedClass("target")}`} style={calibratedVisualStyle(calibration, "target")} src="/assets/wheel/parts/score-fan.png" alt="" draggable="false" />
+        <div className="wheel-target-window" style={{ zIndex: calibration.target.z }} aria-hidden="true">
+          <div className="wheel-target-pivot" style={{ "--target-angle": `${targetAngle}deg` } as CSSProperties}>
+            <img className={`wheel-target wheel-calibratable${selectedClass("target")}`} style={calibratedVisualStyle(calibration, "target")} src="/assets/wheel/parts/score-fan.png" alt="" draggable="false" />
+          </div>
         </div>
         <div className="wheel-screen-motion" style={{ zIndex: calibration.screen.z }} aria-hidden="true"><img className={`wheel-screen wheel-calibratable${selectedClass("screen")}`} style={motionStyle("screen")} src="/assets/wheel/parts/screen-mint.png" alt="" draggable="false" /></div>
         <img className={`wheel-shell wheel-calibratable${selectedClass("shell")}`} style={{ ...calibratedVisualStyle(calibration, "shell"), zIndex: calibration.shell.z }} src="/assets/wheel/parts/shell-blue.png" alt="" aria-hidden="true" draggable="false" />
