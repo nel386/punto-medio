@@ -72,7 +72,7 @@ const WHEEL_PIVOT_Y = 0.505;
 const WHEEL_ANIMATION_MS = 1200;
 // La aguja ocupa todo el arco útil de la tapa: los extremos quedan 5° más
 // inclinados y siguen siendo simétricos alrededor del pivote fijo.
-const NEEDLE_MAX_ANGLE = 72.5;
+const NEEDLE_MAX_ANGLE = 82.5;
 const NEEDLE_DEGREES_PER_POINT = NEEDLE_MAX_ANGLE / 50;
 
 const WHEEL_LAYER_KEYS = ["gear", "background", "target", "screen", "shell", "opener", "needle"] as const;
